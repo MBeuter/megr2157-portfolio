@@ -1,7 +1,7 @@
 # A1 – Build Your Professional Portfolio
 
 ## Objective
-This assignment serves the analysis of engineering portfolios alongside corresponding expectations and suggestioins for improvement.
+This assignment serves the analysis of engineering portfolios alongside corresponding expectations and suggestions for improvement.
 
 ## Analyze
 ## Task A:  Portfolio Analysis
@@ -34,6 +34,8 @@ Portfolio 2: https://sites.google.com/view/sethschafferportfolio/home
   
   d.  Professional tone
   The tone used by Schaffer is more on the informal side. He uses colloquial words such as "amazing" and tells the circumstances of his design like a story, rather than a report.
+
+## Task B: Product Analysis
   
 ## Decide
 
