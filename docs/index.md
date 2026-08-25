@@ -25,5 +25,5 @@ Use the navigation on the left to move between assignments.
 By A11, every design decision that will be defended should trace back to something that was analyzed and communicated earlier in this site.
 
 ## Projects
-A01 
+A01 - An analysis on portfolio content and supporting documentation.
 
