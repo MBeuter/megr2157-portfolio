@@ -75,11 +75,15 @@ One design choice the original engineer made is the intentional L shape of the t
    
 The homepage needs to be organized by the engineering projects I have created. Designs, modifications and improvements need to be labeled and referenced within the homepage to create a clear structure and understanding of the upcoming content. An organized and easy-to-navigate homepage is the backbone of the impression you will leave on the viewer. It should be chronological in nature
 
-2.  One Intentional Customization : Identify one element of the template : color scheme, typography, logo, or section labels : and change it deliberately. Document what you changed, what requirement your change better satisfies, and why the template default did not meet that requirement. "I preferred it" is not a requirement. State the functional reason.
+2.  One Intentional Customization
+   
+I changed the primary color from green to blue to promote a feeling of attentiveness and analytical vigor. According to reserach done to prove correlations between our environment and our regulational reactions, blue light "is posited to activate the melanopsin photoreceptor system which, in turn, activates the brain structures involved in sub-cortical arousal and higher-order attentional processing" (Cajochen et al., 2005; Lockley et al., 2006), i.e. it heightens one's attention. The change will help potential viewers with reading through the portfolio and noticing the details that will be elaborated on.
+Cajochen C., Münch M., Kobialka S., Kräuchi K., Steiner R., Oelhafen P., et al. (2005). High sensitivity of human melatonin, alertness, thermoregulation, and heart rate to short wavelength light. J. Clin. Endocr. Metab. 90 1311–1316 10.1210/jc.2004-0957 [DOI] [PubMed] [Google Scholar][Ref list]
 
 
 3.  Your Documentation Standard
-The content for every assignment will include the assignment statement, any correlating supporting documentation, and the assignment itself alongside a description and statement of necessity. I will also describe the problem that the design solves, if there is one.
+   
+The content for every assignment will include the assignment statement, any correlating supporting documentation, and the assignment itself alongside a description and statement of necessity. I will also describe the problem that the design solves.
 
 
 ## Communicate
