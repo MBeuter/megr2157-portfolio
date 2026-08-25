@@ -46,9 +46,11 @@ Portfolio 2: https://sites.google.com/view/sethschafferportfolio/home
 ## Task B: Product Analysis
 
 a. Primary Function
+
 An Allen key is responsible for applying an angled force on a bolt with a hexagonal slot. The L shape enables a multiplicative force on the bolt, which makes it possible to turn it clockwise or counter-clockwise to tighten or loosen it.
 
 b. Governing Model
+
 The Allen key works on the lever principle or with momentum. Thanks to the increased distance of the application location, compared to turning the bolt by twisting a tool from above, the force acting on the slotted surface is increased.
 
 M = F x d is the governing formula, where M is the momentum, F is the force and d is the perpendicular distance to the bolt axis from the force.
@@ -57,9 +59,11 @@ This model is valid cocnsidering that longer Allen keys are able to break bolts 
 
 c.  (15%) Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.
 c. Mechanical Function
+
 The Allen key is composed of one piece of metal. It is shaped hexagonally on both ends, meaning either end can be used to tighten or loosen a bolt. This can be convenient out in the field due to the spacial constrictions of work environments. It is made of metal so it does not give out at higher force applications. In addition, the thickness of the key enables a good grip alongside the angled endges that run across its full length. 
 
 d.  Patent and Design
+
 Patent Number:
 Author:
 
@@ -67,6 +71,15 @@ The same primary function can be achieved with a hexagonal tool bit or hexagonal
 One design choice the original engineer made is the intentional L shape of the tool. It creates an ergonomic grip, increases the tools's versatality and finally, it makes the production of the tool simpler, since it can be cast from a singlular piece.
 
 ## Decide
+1.  Homepage Identity
+   
+The homepage needs to be organized by the engineering projects I have created. Designs, modifications and improvements need to be labeled and referenced within the homepage to create a clear structure and understanding of the upcoming content. An organized and easy-to-navigate homepage is the backbone of the impression you will leave on the viewer. It should be chronological in nature
+
+2.  One Intentional Customization : Identify one element of the template : color scheme, typography, logo, or section labels : and change it deliberately. Document what you changed, what requirement your change better satisfies, and why the template default did not meet that requirement. "I preferred it" is not a requirement. State the functional reason.
+
+
+3.  Your Documentation Standard
+The content for every assignment will include the assignment statement, any correlating supporting documentation, and the assignment itself alongside a description and statement of necessity. I will also describe the problem that the design solves, if there is one.
 
 
 ## Communicate
@@ -75,7 +88,7 @@ One design choice the original engineer made is the intentional L shape of the t
 With technology changing day by day, it is important to find ways to not only improve by keeping up with information, but by evolving one's understanding and analytical skills into what will define the future beyond our current graphs. Analysis, performance evaluation, failure rate examination, and visual evidence preparation are all skills that the modern engineer requires to take apart problems and improve the future.
 With emphasis on experience and a trial-by-error approach, I like to push my designs to the extreme. It is important to encounter the limitations of one's projects and create more rigorous safety precautions in order to adjust to real-world use. This will be even more important in the manufacturing field. Considering your material limitations, points of likeliest failure, inefficiencies and imperfections in the manufacturing process, alongside many more aspects, helps you paint a better picture of the product and what you can modify to better it. This especially applies to the biomedical industry.
 Biomedical engineering will continue to change the future; screening methods, implants, prosthetics and more. When designing these in everyday engineering problems, it is important to take into account the end-uder and their needs; when fixing a vehicle, you modify to prevent future breakage, and when your are organizing data, you create the correspondings graphs based on the needs of your client. You communicate with the people who need your services in order to find the best possible solution. Communication, collaboration, compassion and understanding are the main principles that will propel the project forward and promote success. This is applicable to all of engineering. This is the approach that will change the world.
-3.  "What does it mean to defend an engineering decision : and do you currently know how to do it?"
+3.  "What does it mean to defend an engineering decision : and do you currently know how to do it?": 
 Defending an engineering decision means being able to find the corresponding governing principles and past experiences to defend your future decisions. Engineering is not just about confidence and decision-making based on profits or arbitrary changes for the sake of impact. Engineering is a subjective art form, and part of being an engineer is being able to defend your choices scientifically. In addition, one can jump from a good engineer to a great engineer if they can combine their knowledge with soft skills that will help support their statements. The world of engineering is full of many people who will not understand the underlying principles behind engineering decisions. Being able to mediate one's conclusions and corresponding reasoning to an audience outside of the field of interest is an important factor when defending one's conclusions.
 4.  I spent at least 8 hours on this assignment.
 
