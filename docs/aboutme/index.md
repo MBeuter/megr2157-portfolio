@@ -1,2 +1,8 @@
-#About Me
-This is how to edit
+# About Me: Milena Beuter
+Cooperative and curious future mechanical engineer, interested in learning about the principles that govern modern day physics. Experience in the automotive field as a technician and in engineering data analytics for product improvement in the medical field. Promoting a better tomorrow. 
+With technology changing day by day, it is important to find ways to not only improve by keeping up with information, but by evolving one's understanding and analytical skills into what will define the future beyond our current graphs. Analysis, performance evaluation, failure rate examination, and visual evidence preparation are all skills that the modern engineer requires to take apart problems and improve the future.
+With emphasis on experience and a trial-by-error approach, I like to push my designs to the extreme. It is important to encounter the limitations of one's designs and create more rigorous safety precautions in order to adjust to real-world use. This will be even more important in the medical field. Considering your material limitations, points of likeliest failure, inefficiencies and imperfections in the manufacturing process,m alongside many more aspects, helps you paint a better picture of the product and what you can modify to better it. This especially applies to the biomedical industry.
+Biomedical engineering will continue to change the future; screening methods, implants, prosthetics and more. When designing these in everyday engineering problems, it is important to take into account the end-uder and their needs; when fixing a vehicle, you modify to prevent future breakage, and when your are organizing data, you create the correspondings graphs based on the needs of your client. You communicate with the people who need your services in order to find the best possible solution. Communication, collaboration, compassion and understanding are the main principles that will propel the project forward and promote success. This is applicable to all of engineering.
+
+# What does it mean to defend an engineering decision : and do you currently know how to do it?" 
+
