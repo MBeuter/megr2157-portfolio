@@ -5,4 +5,8 @@ With emphasis on experience and a trial-by-error approach, I like to push my des
 Biomedical engineering will continue to change the future; screening methods, implants, prosthetics and more. When designing these in everyday engineering problems, it is important to take into account the end-uder and their needs; when fixing a vehicle, you modify to prevent future breakage, and when your are organizing data, you create the correspondings graphs based on the needs of your client. You communicate with the people who need your services in order to find the best possible solution. Communication, collaboration, compassion and understanding are the main principles that will propel the project forward and promote success. This is applicable to all of engineering.
 
 # What does it mean to defend an engineering decision : and do you currently know how to do it?" 
+Defending an engineering decision means being able to find the corresponding governing principles and past experiences to defend your future decisions. Engineering is not just about confidence and decision-making based on profits or arbitrary changes for the sake of impact. Engineering is a subjective art form, and part of being an engineer is being able to defend your choices scientifically. In addition, one can jump from a good engineer to a great engineer if they can combine their knowledge with soft skills that will help support their statements. The world of engineering is full of many people who will not understand the underlying principles behind engineering decisions. Being able to mediate one's conclusions and corresponding reasoning to an audience outside of the field of interest is an important factor when defending one's conclusions.
+
+I spent at least 8 hours on this assignment.
+
 
