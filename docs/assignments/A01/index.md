@@ -85,7 +85,7 @@ Cajochen C., Münch M., Kobialka S., Kräuchi K., Steiner R., Oelhafen P., et al
 
 3.  Your Documentation Standard
    
-The content for every assignment will include the assignment statement, any correlating supporting documentation, and the assignment itself alongside a description and statement of necessity. I will also describe the problem that the design solves.
+The content for every assignment will include the assignment statement, any correlating supporting documentation, and the assignment itself alongside a description and statement of necessity. I will also describe the problem that the design solves.I have addded a section at the end of the homepage to create the space to do this.
 
 
 ## Communicate
