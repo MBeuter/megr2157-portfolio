@@ -23,3 +23,7 @@ Use the navigation on the left to move between assignments.
 - **Act III (Weeks 12–15):** Building the complete lead screw translating system.
 
 By A11, every design decision that will be defended should trace back to something that was analyzed and communicated earlier in this site.
+
+## Projects
+A01 
+
