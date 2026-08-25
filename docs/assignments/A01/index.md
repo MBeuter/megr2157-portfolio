@@ -57,15 +57,16 @@ M = F x d is the governing formula, where M is the momentum, F is the force and 
 
 This model is valid cocnsidering that longer Allen keys are able to break bolts loose with less force.
 
-c.  (15%) Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.
 c. Mechanical Function
+
+<img width="3024" height="1970" alt="IMG_5076" src="https://github.com/user-attachments/assets/36247925-9609-48b0-9a54-bf1a7abce083" />
 
 The Allen key is composed of one piece of metal. It is shaped hexagonally on both ends, meaning either end can be used to tighten or loosen a bolt. This can be convenient out in the field due to the spacial constrictions of work environments. It is made of metal so it does not give out at higher force applications. In addition, the thickness of the key enables a good grip alongside the angled endges that run across its full length. 
 
 d.  Patent and Design
 
-Patent Number:
-Author:
+Patent Number: US20160271766A1
+Author: Tuo-Jen Chen
 
 The same primary function can be achieved with a hexagonal tool bit or hexagonal tool bit socket, as long as you have the corresponding ratchets and adapters. You can go even further to say that some torx bits may be suited to move hexagonally slotted bolts and screws.
 One design choice the original engineer made is the intentional L shape of the tool. It creates an ergonomic grip, increases the tools's versatality and finally, it makes the production of the tool simpler, since it can be cast from a singlular piece.
@@ -73,7 +74,8 @@ One design choice the original engineer made is the intentional L shape of the t
 ## Decide
 1.  Homepage Identity
    
-The homepage needs to be organized by the engineering projects I have created. Designs, modifications and improvements need to be labeled and referenced within the homepage to create a clear structure and understanding of the upcoming content. An organized and easy-to-navigate homepage is the backbone of the impression you will leave on the viewer. It should be chronological in nature
+The homepage needs to be organized by the engineering projects I have created. Designs, modifications and improvement projects need to be labeled and referenced within the homepage to create a clear structure and understanding of the upcoming content. An organized and easy-to-navigate homepage is the backbone of the impression you will leave on the viewer. It should be chronological in nature.
+Not changing the structure of it, I changed the intended audience for the website. Replacing 'your' with more general terms, such as 'one', made the homepage easier to read and more general to address future audiences, rather than just me.
 
 2.  One Intentional Customization
    
