@@ -1,7 +1,7 @@
 # A1 – Build Your Professional Portfolio
 
 ## Objective
-This assignment serves the analysis of engineering portfolios alongside corresponding expectations and suggestions for improvement. We also analyze design choices of a patented tool.
+This assignment serves the analysis of engineering portfolios (including one's own) alongside corresponding expectations and suggestions for improvement. We also analyze design choices of a patented tool, and create an About Me section.
 
 ## Analyze
 ## Task A:  Portfolio Analysis
