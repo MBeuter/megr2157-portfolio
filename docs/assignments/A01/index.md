@@ -1,7 +1,7 @@
 # A1 – Build Your Professional Portfolio
 
 ## Objective
-This assignment serves the analysis of engineering portfolios alongside corresponding expectations and suggestions for improvement.
+This assignment serves the analysis of engineering portfolios alongside corresponding expectations and suggestions for improvement. We also analyze design choices of a patented tool.
 
 ## Analyze
 ## Task A:  Portfolio Analysis
@@ -56,10 +56,10 @@ M = F x d is the governing formula, where M is the momentum, F is the force and 
 This model is valid cocnsidering that longer Allen keys are able to break bolts loose with less force.
 
 c.  (15%) Take photographs of each component. Under each photograph, describe precisely how the geometry of that component affects its mechanical function.
-
+c. Mechanical Function
 The Allen key is composed of one piece of metal. It is shaped hexagonally on both ends, meaning either end can be used to tighten or loosen a bolt. This can be convenient out in the field due to the spacial constrictions of work environments. It is made of metal so it does not give out at higher force applications. In addition, the thickness of the key enables a good grip alongside the angled endges that run across its full length. 
 
-d.  Using patent research, identify the patent number and author(s). Then:
+d.  Patent and Design
 Patent Number:
 Author:
 
@@ -70,4 +70,7 @@ One design choice the original engineer made is the intentional L shape of the t
 
 
 ## Communicate
+1. Milena Beuter
+2. Cooperative and curious future mechanical engineer, interested in learning about the principles that govern modern day physics. Experience in the automotive field as a technician, and in engineering data analytics for product improvement in the medical field. Open to a better tomorrow. With technology changing day by day, it is important to find ways to not only improve by keeping up with information, but by evolving one's understanding and analytical skills into what will define the future beyond our current graphs. Analysis, performance evaluation, failure rates, and visual evidence are all skills that the modern engineer requires to take apart problems and imrpove the future.
+3.  "What does it mean to defend an engineering decision : and do you currently know how to do it?" Defending an engineering decision means being able to find the corresponding governing principles and past experiences to defend your future decisions. Engineering is not just about confidence and decision-making based on profits or arbitrary changes for the sake of impact. Engineering is a subjective art form, and part of being an engineer is being able to defend your choices scientifically. In addition, one can jump from a good engineer to a great engineer if they can combine their knowledge with soft skills that will help support their statements. The world of engineering is full of many people who will not understand the underlying principles behind engineering decisions. Being able to mediate one's conclusions and corresponding reasoning to an audience outside of the field of interest is an important factor when defending one's conclusions.
 
