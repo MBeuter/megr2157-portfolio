@@ -2,6 +2,12 @@
 
 ## Objective
 A light weight planar truss is designed and roughly created in CAD for this assignment. Failure modes for the individual truss members is also discussed.
+<img width="555" height="370" alt="image" src="https://github.com/user-attachments/assets/991fb548-33cc-49f2-9e59-e4dfc25c29dd" />
+The truss will be based off of this image provided, where A is a pin and B is a roller.
+
+Further:
+- The truss members are made of A500 Structural Steel.
+- The pins are made of hardened tool steel.
 
 ## Analyze
     Truss geometry
@@ -10,8 +16,17 @@ In designing the final truss, it took several steps. At times, the forces could 
 <img width="525" height="256" alt="image" src="https://github.com/user-attachments/assets/13e1b65f-9cce-4aad-bc59-bb01de6e8845" />
 <img width="637" height="400" alt="image" src="https://github.com/user-attachments/assets/b159049e-a12d-4648-b6c3-bd68625b1dfa" />
 
+The corresponding FDBs look as following:
+<img width="502" height="420" alt="image" src="https://github.com/user-attachments/assets/1bdf3ef6-8095-4b32-8ee0-5ae56babf254" />
 
-    (20pt) Design the truss structure using the parameters in Figure #1.
+By setting up linear systems, it is possible to calculate most unknown values:
+<img width="643" height="712" alt="image" src="https://github.com/user-attachments/assets/4903291d-1644-4d9f-86b0-7ab941756d70" />
+The following calculations organize the known and unknown variables for a better overview. This is all symbolically:
+<img width="640" height="594" alt="image" src="https://github.com/user-attachments/assets/b13df59c-6773-4d02-a8b8-c544c73a64b5" />
+
+Numerically, we can use the values given for this assignment, where P=30kN, a=0.4m and b=0.3m.
+
+
 
     Sketch a truss structure by generating the lengths of each element based to support the loads at point C and D.
     Sketch and label a FBD of each joint on the truss.
