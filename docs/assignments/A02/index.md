@@ -82,21 +82,36 @@ In the following, CAD software was used to create a planar truss.
 
 A sketch is made, as seen above. The measurements are based off the calculations made prior. 
 
-The final product looks as displayed:
+The preliminary sketch is made:
 
 <img width="1309" height="732" alt="image" src="https://github.com/user-attachments/assets/0f80ce62-d585-4875-a59f-e2389866b00e" />
 
-AISI 1015 Steel is used for the model, since it is closest to the A500 steel properties, ensuring that the pervious calculations are not too far off for the required metrics.
+Edits are made to the overall truss. The members are lengthened and thickened, the joints are made thick enough, the angles are changed, and the correct thickness double-checked to ensure a proper cross-sectional area.
+
+<img width="1105" height="703" alt="image" src="https://github.com/user-attachments/assets/918aa3df-6427-4fda-9a90-593bc0aba123" />
+
+Assuming the same height as width, the minimum thickness of the truss members should be sqrt(1.316cm^2<)=1.147(2.54)inch=2.914inch, so that is their thickness.
+
+The final result looks like:
+
+<img width="1333" height="693" alt="image" src="https://github.com/user-attachments/assets/d190bb5d-358a-478a-b84a-82427898614a" />
+
+AISI 1015 Steel is used for the model, since it is closest to the A500 steel properties, ensuring that the previous calculations are not too far off for the required metrics.
 
 ## Reflection
 I learned how to design a truss from scratch and which constraints can affect the choice in individual member directions. I also learned that the material of the truss is important, considering that it can limit the forces that can act on the material and decide its sizing. This means that certain materials can make the overall geometry smaller or thinner with less material overall, saving resources, while maintaining the required standards and restraints. Overall, I learned about the different basics steps that may go into designing a part; initial geometry and expected forces, material choice and structural rigity, safety factors and lastly actual implementation of the design in a CAD software.        
 
-For MEGR 2157:
-    Instructions:
-Research the likelihood of different failure modes in the components of a truss. Cite all sources used. If you use AI, include the exact prompts and responses, and make sure AI is used only as a tool to support—not replace—your own critical thinking.
+## Additional Work For MEGR 2157:
+## Failure Modes of Truss Members and Pins
+   
+## Truss Members
+There are 7 members in the truss. Each of them is either under tension, compression or may fail due to the applied load.
 
-(10pt) Part 1 – Truss Members
-Each truss member is under either tension or compression and may fail due to the applied loading. For each member:
+<img width="910" height="514" alt="image" src="https://github.com/user-attachments/assets/6ee4683e-f2df-4c0d-9e1b-d9105385bbd3" />
+
+All of the members have been numbered for simple reference. We will list a) the expected mode of failure, b) whether the material is ductile or brittle, and c) suggest potential improvements for each member.
+
+1) This member is under 
 
     Identify the expected failure mode (yielding, fracture, or buckling).
     State whether the material is ductile or brittle.
@@ -108,3 +123,5 @@ Each truss member is under either tension or compression and may fail due to the
     Identify the expected failure mode of the pin.
     Support your answer with data from credible, known sources.
     Propose a design modification to reduce the likelihood of this failure
+
+From start to finish this assignment took about 8 hours total, which can be divided into 3h of designing and calculations, 2h of creating the piece and editing it, and 3h to take pictures, document, double check, edit and upload the assignment,
