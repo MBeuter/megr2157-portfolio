@@ -135,16 +135,39 @@ Yielding in any of the members is unlikely in this case, due to the precautions 
 6) This member is under compression, so it may buckle.
 7) This member is under tension, so fracture is possible.
    
-For all members above, the material is either ductile or brittle depending on the exact manufacturing details. However, A500 Steel tends to be known as a ductile material, meaning that it tends to deform before fracturing. This may be affected by the cold and thick welds that may lock in stress, though.
+For all members above, the material is either ductile or brittle depending on the exact manufacturing details. However, A500 Steel tends to be known as a ductile material, meaning that it tends to deform before fracturing. This may be affected by the cold and thick welds that may lock in stress, though.[1]
 To reduce the likelihood of failure due to the ductile nature of the material, recommending to keep it in warmer environments, or regulating the thickness of the welds/possibly avoiding welds when possible by simplifying designs (less trusses) is possible.
+
+[1] https://www.longma-group.com/knowledge/what-is-the-yield-strength-of-the-a-b-c-grade-of-astm-a500-structural-pipe
 
 ## Pin Connections
 
-    Identify the expected failure mode of the pin.
-    Support your answer with data from credible, known sources.
-    Propose a design modification to reduce the likelihood of this failure
+<img width="898" height="462" alt="image" src="https://github.com/user-attachments/assets/fd88bbe1-09de-4eaa-93d2-62cd2a2bf1b0" />
+
+We conduct the same analysis for the pins now.
+
+A pin may experience [2][3]:
+- Shear failure, where the pin is split in one or more planes,
+- Bearing failure, where the pin presses against the hole and may cause localized crushing, hole elongation or yielding,
+- Pin bending
+- Pin fracture
+- Surrounding material failure
+
+[2] https://www.sciencedirect.com/science/article/abs/pii/S1350630726003080
+[3] https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780080430157500270
+
+For the pins in the picture one may expect:
+1) Bearing failure, due to the possibility of an exessive force acting on the roller pin. It will be deformed by the wall and the truss, or it may deform the wall and the truss members. This can be mitigated by making the used materials harder and having the same hardness for all to avoid unintentional wearing down of one part compared to the others. 
+2) This pin has the most truss members acting on it, making it possible for shear failure to occure. This can be avoided by reducing the loads on the pin or strengthening the pin and the surrounding materials.
+3) This pin is similar to pin 2 and the same applies.
+4) This pin is similar to pin 2 and the same applies. Pin fracture may happen since it is one of the lowest members, and if it rains or if it is near the sea, it is possible for water droplet to accumulate.
+5) This pin is similar to pin 4 and the same applies.
+
+In general, the pins may experience any of the above-mentioned failures. It is important in the design of the pins to not just consider the surrounding environmental conditions, such as temperature, possibility for corrosion etc., but also to pay attention to the surrounding materials and their strengths. If they are too weak, the break. If they are too strong, the pin breaks. It is important to find the balance between convenience and reliability for the sake of safety, when designing truss systems with pins.
 
 From start to finish this assignment took about 10 hours total, which can be divided into 3h of designing and calculations, 2h of creating the piece and editing it, and 5h to take pictures, document, double check, edit and upload the assignment.
 
 Here is a link to my SolidWorks file over Google Drive:
 https://drive.google.com/drive/folders/1IJx3p2oTZEVYt5ya03C4O_H1MbMJnX0X?usp=sharing
+
+Last edited: 09/03/2026
