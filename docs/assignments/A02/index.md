@@ -68,8 +68,7 @@ With this, the minimum cross-sectional area of a single pin can be calculated. I
 
 <img width="793" height="211" alt="image" src="https://github.com/user-attachments/assets/9e5658e0-5f5f-4d84-a20a-a0309078591e" />
 
-
-The minimum thickness can be calculated as well. It is 0.0165cm or 0.006506in.
+The minimum thickness can be calculated as well. It is 0.0165cm or 0.006506in.The corresponding diameter of the pins is 1.294cm or 0.5094inch.
 
 <img width="369" height="345" alt="image" src="https://github.com/user-attachments/assets/4dfb85a7-46ea-46e8-91d0-0c26ac9e38d3" />
 
@@ -77,14 +76,19 @@ All pins together will have a weight, as following:
 
 <img width="757" height="159" alt="image" src="https://github.com/user-attachments/assets/3f676579-7d08-48a4-a42c-897dd2f6884a" />
 
-In the following, CAD software was used to create a planar truss 
-    (20pt) Utilize CAD software to generate a 3D model of the truss. Model the pins as cylinders with the appropriate cross-sectional areas and lengths.
+In the following, CAD software was used to create a planar truss.
 
-    Represent the truss minus the pins as one part in CAD.
-    Maintain the cross-sectional area of each element at the intersection of the pin joint.
-    Ensure that the truss design satisfies the safety factor, weight optimization goal, and geometric constraints while maintaining structural integrity and stability.
-    Implement mass properties in the CAD model and determine the predicted weight, accordingly.
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/d1998c73-27e4-467a-a146-5a3aab4ce3fc" />
 
+A sketch is made, as seen above. The measurements are based off the calculations made prior. 
+
+The final product looks as displayed:
+
+<img width="1309" height="732" alt="image" src="https://github.com/user-attachments/assets/0f80ce62-d585-4875-a59f-e2389866b00e" />
+
+AISI 1015 Steel is used for the model, since it is closest to the A500 steel properties, ensuring that the pervious calculations are not too far off for the required metrics.
+
+## Reflection
 I learned how to design a truss from scratch and which constraints can affect the choice in individual member directions. I also learned that the material of the truss is important, considering that it can limit the forces that can act on the material and decide its sizing. This means that certain materials can make the overall geometry smaller or thinner with less material overall, saving resources, while maintaining the required standards and restraints. Overall, I learned about the different basics steps that may go into designing a part; initial geometry and expected forces, material choice and structural rigity, safety factors and lastly actual implementation of the design in a CAD software.        
 
 For MEGR 2157:
@@ -104,9 +108,3 @@ Each truss member is under either tension or compression and may fail due to the
     Identify the expected failure mode of the pin.
     Support your answer with data from credible, known sources.
     Propose a design modification to reduce the likelihood of this failure
-
-## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
-
-## Communicate
-
