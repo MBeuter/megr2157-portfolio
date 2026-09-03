@@ -69,7 +69,7 @@ With this, the minimum cross-sectional area of a single pin can be calculated. I
 <img width="793" height="211" alt="image" src="https://github.com/user-attachments/assets/9e5658e0-5f5f-4d84-a20a-a0309078591e" />
 
 
-The minimum thickness can be as well. It is 0.0165cm or 0.006506in.
+The minimum thickness can be calculated as well. It is 0.0165cm or 0.006506in.
 
 <img width="369" height="345" alt="image" src="https://github.com/user-attachments/assets/4dfb85a7-46ea-46e8-91d0-0c26ac9e38d3" />
 
