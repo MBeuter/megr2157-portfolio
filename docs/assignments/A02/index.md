@@ -2,6 +2,7 @@
 
 ## Objective
 A light weight planar truss is designed and roughly created in CAD for this assignment. Failure modes for the individual truss members is also discussed.
+
 <img width="555" height="370" alt="image" src="https://github.com/user-attachments/assets/991fb548-33cc-49f2-9e59-e4dfc25c29dd" />
 The truss will be based off of this image provided, where A is a pin and B is a roller.
 
