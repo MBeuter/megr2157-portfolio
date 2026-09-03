@@ -111,17 +111,40 @@ There are 7 members in the truss. Each of them is either under tension, compress
 
 All of the members have been numbered for simple reference. We will list a) the expected mode of failure, b) whether the material is ductile or brittle, and c) suggest potential improvements for each member.
 
-1) This member is under 
+AI was used to make the search for the required information more efficient. The following prompt was utilized:
+"With sources cited please, I need to know:
+- How to identify the failure modes a truss member can experience (specifically: yielding, fracture and buckling) and improvements that can be made for those failures.
+- How to identify whether a material is ductile or brittle based either on truss member behavior or just the material used and its general properties.
+- How to identify the failure modes of a pin in a truss system and improvements that can be made for those failures.
+Give me 2 credible sources for each bullet-point. Take your time if you need to. I want correctness and informational reliability over speed. You can notify me when you are done."
 
-    Identify the expected failure mode (yielding, fracture, or buckling).
-    State whether the material is ductile or brittle.
-    Support your choice using stress comparisons and simple reasoning.
-    Propose a design modification that could reduce the likelihood of this failure.
+General Notes:
+Yielding in any of the members is unlikely in this case, due to the precautions taken at the design stage with the min. tripple safety factor. However, as a note:
+- If under compression, buckling is possible.
+- If under tension, fracture is possible.
+- Yielding happens with either compression or tension.
 
-    Part 2 – Pin Connections
+- Ductile fractures happen after deformation.
+- Brittle fractures are sudden and visible deformation may not become obvious.
+
+1) This member is under compression, so one expects buckling.
+2) This member is under tension, so fracture is possible.
+3) This member is under compression, so it may buckle.
+4) This member is under compression, so it may buckle.
+5) This member is under tension, so it may fracture.
+6) This member is under compression, so it may buckle.
+7) This member is under tension, so fracture is possible.
+   
+For all members above, the material is either ductile or brittle depending on the exact manufacturing details. However, A500 Steel tends to be known as a ductile material, meaning that it tends to deform before fracturing. This may be affected by the cold and thick welds that may lock in stress, though.
+To reduce the likelihood of failure due to the ductile nature of the material, recommending to keep it in warmer environments, or regulating the thickness of the welds/possibly avoiding welds when possible by simplifying designs (less trusses) is possible.
+
+## Pin Connections
 
     Identify the expected failure mode of the pin.
     Support your answer with data from credible, known sources.
     Propose a design modification to reduce the likelihood of this failure
 
-From start to finish this assignment took about 8 hours total, which can be divided into 3h of designing and calculations, 2h of creating the piece and editing it, and 3h to take pictures, document, double check, edit and upload the assignment,
+From start to finish this assignment took about 10 hours total, which can be divided into 3h of designing and calculations, 2h of creating the piece and editing it, and 5h to take pictures, document, double check, edit and upload the assignment.
+
+Here is a link to my SolidWorks file over Google Drive:
+https://drive.google.com/drive/folders/1IJx3p2oTZEVYt5ya03C4O_H1MbMJnX0X?usp=sharing
