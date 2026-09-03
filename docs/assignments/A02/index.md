@@ -11,8 +11,8 @@ Further:
 - The truss members are made of A500 Structural Steel.
 - The pins are made of hardened tool steel.
 
-## Analyze
-    Truss geometry
+## Analysis
+## Truss geometry
 In designing the final truss, it took several steps. At times, the forces could not cancel and I was forced to add a member, lest the structure turn dynamic. The following 3 images show the design process, with the third one being the final implemented design.
 <img width="631" height="280" alt="image" src="https://github.com/user-attachments/assets/1120487c-fd05-4d43-ba14-2c19f32116f5" />
 <img width="525" height="256" alt="image" src="https://github.com/user-attachments/assets/13e1b65f-9cce-4aad-bc59-bb01de6e8845" />
@@ -30,42 +30,64 @@ The following calculations organize the known and unknown variables for a better
 
 <img width="640" height="594" alt="image" src="https://github.com/user-attachments/assets/b13df59c-6773-4d02-a8b8-c544c73a64b5" />
 
-Numerically, we can use the values given for this assignment, where P=30kN, a=0.4m and b=0.3m.
+Numerically, we can use the values given for this assignment, where P=30kN, a=0.4m and b=0.3m, to determine some of the values.
+
+<img width="622" height="475" alt="image" src="https://github.com/user-attachments/assets/a7cc45f6-e376-4ee6-b706-488fa1d38de1" />
+
+The image shows the known variables (top) and the unknown variables (bottom). If two of the unknown variables are chosen, we can determine the rest. We choose not to go above the maximum determined (2/3)P value for the following problems.
+
+## Safe Cross-sectional Area of the Members
+We calculated the required cross-sectional area of a member to support the maximum internal force of (2/3)P. We used a safety factor of 3.5. The yield strength is researched to be 532MPa for A500 Steel. This is shown symbolically.
+
+<img width="670" height="144" alt="image" src="https://github.com/user-attachments/assets/18719bbb-1f8e-49bd-8581-b4aa184a48e6" />
+
+Numerically, we receive these values:
+
+<img width="672" height="268" alt="image" src="https://github.com/user-attachments/assets/56d7e8e4-a410-43a1-b574-2b7c9d926cf4" />
+
+If we want to approximate the weight of an individual member, utilizing a density of 7850kg/m^3:
+
+<img width="606" height="286" alt="image" src="https://github.com/user-attachments/assets/00e9e6fb-493e-4ec6-bbfb-25d1fe5c0e8e" />
+
+## Pins and Safe Cross-sectional Area of the Pins
+With a yield shear strength of 170 ksi and a density of 0.278 lb/in3 and the assumption that elements that are in compression won’t fail in buckling, we determine the cross-sectional area required by the pins. The safety factor is 4.
+
+Here are the knowns and unknown qualities with a sketch:
+
+<img width="199" height="235" alt="image" src="https://github.com/user-attachments/assets/2e67663f-1fd9-4d93-b97a-0a734332a13a" />
+
+The following shows the joint in sketch form.
+
+<img width="373" height="219" alt="image" src="https://github.com/user-attachments/assets/54486648-9348-40cb-a1c2-13d19a4394e8" />
+
+An FBD can be made from this sketch:
+
+<img width="315" height="196" alt="image" src="https://github.com/user-attachments/assets/8b9a080d-b065-4e50-b859-a9d5fbb06ad6" />
+
+With this, the minimum cross-sectional area of a single pin can be calculated. It is 0.02645in^2.
+
+<img width="793" height="211" alt="image" src="https://github.com/user-attachments/assets/9e5658e0-5f5f-4d84-a20a-a0309078591e" />
 
 
+The minimum thickness can be as well. It is 0.0165cm or 0.006506in.
 
-    Sketch a truss structure by generating the lengths of each element based to support the loads at point C and D.
-    Sketch and label a FBD of each joint on the truss.
-    Symbolically solve for all internal forces.
-    Numerically solve for all internal forces.
+<img width="369" height="345" alt="image" src="https://github.com/user-attachments/assets/4dfb85a7-46ea-46e8-91d0-0c26ac9e38d3" />
 
-    (25pt) Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
+All pins together will have a weight, as following:
 
-    (2pt) List all the knowns and unknowns.
-    (18pt) Symbolically solve for minimum cross-sectional area (without numbers).
-    (3pt) Numerically solve for the cross-sectional area.        
-    (2pt)Determine the approximate weight of the truss.
+<img width="757" height="159" alt="image" src="https://github.com/user-attachments/assets/3f676579-7d08-48a4-a42c-897dd2f6884a" />
 
-        20pt) Determine the cross-sectional area of the connecting pins which are made of hardened tool steel with a yield shear strength of 170 ksi and a density of 0.278 lb/in3. Assume that elements that are in compression won’t fail in buckling.
-
-    Calculate the required cross-sectional area of the pins to withstand the expected shear forces. Design a single shear connection. Use a safety factor of 4.
-
-    (1pt) list all the knowns and quantities and unknowns.
-    (2pt) Generate a FBD of the pin with the largest reaction load.
-    (14pt) Symbolically solve for minimum cross-sectional area.
-    (2pt) Numerically solve for the cross-sectional area        
-    (1pt) Determine the approximate combined weight of the pins. 
-
+In the following, CAD software was used to create a planar truss 
     (20pt) Utilize CAD software to generate a 3D model of the truss. Model the pins as cylinders with the appropriate cross-sectional areas and lengths.
 
     Represent the truss minus the pins as one part in CAD.
     Maintain the cross-sectional area of each element at the intersection of the pin joint.
     Ensure that the truss design satisfies the safety factor, weight optimization goal, and geometric constraints while maintaining structural integrity and stability.
-    Implement mass properties in the CAD model and determine the predicted weight, accordingly.      
-        pt) Detail engineering lesson learned and be specific. Eliminate words like good and bad from this section. Be more articulate. 
+    Implement mass properties in the CAD model and determine the predicted weight, accordingly.
 
-    For example, I learned how to design a truss using the yield strength of the material by comparing it with the external stress of the load.
+I learned how to design a truss from scratch and which constraints can affect the choice in individual member directions. I also learned that the material of the truss is important, considering that it can limit the forces that can act on the material and decide its sizing. This means that certain materials can make the overall geometry smaller or thinner with less material overall, saving resources, while maintaining the required standards and restraints. Overall, I learned about the different basics steps that may go into designing a part; initial geometry and expected forces, material choice and structural rigity, safety factors and lastly actual implementation of the design in a CAD software.        
 
+For MEGR 2157:
     Instructions:
 Research the likelihood of different failure modes in the components of a truss. Cite all sources used. If you use AI, include the exact prompts and responses, and make sure AI is used only as a tool to support—not replace—your own critical thinking.
 
