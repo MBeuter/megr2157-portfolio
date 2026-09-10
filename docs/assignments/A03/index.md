@@ -4,7 +4,7 @@
 
 <img width="906" height="199" alt="image" src="https://github.com/user-attachments/assets/615283ad-6a08-415d-a5b3-2887189e2f7d" />
 
-The objective of the assignment is to deisgn a bar with circulart cross-section including its corresponding parameters.
+The objective of the assignment is to deisgn a bar with a circular cross-section including its corresponding parameters.
 
 The bar is to have an applied direct load between 300 lbf < F < 500 lbf. The max axial deflection of the bar is .009 inches. The bar is to be designed from Aluminum with a range of Young’s Modulus from (8.5 - 11.5) x 106 psi. 
 
