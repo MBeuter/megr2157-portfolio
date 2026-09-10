@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# A3 – Parametric and FEA
 
 ## Objective
 
@@ -43,11 +43,6 @@ The new resulting displacement was 0.009073in. I managed to make it a little bit
 
 The greatest stress is lower than the 40 ksi max for aluminum with 227500000Nm^2 of stress, or 32.996085334 ksi. The safety factor is 1.21.
 
-<img width="678" height="490" alt="image" src="https://github.com/user-attachments/assets/a492c81d-778e-4de3-9ab4-af22b58a9272" />
-
-<img width="1477" height="813" alt="image" src="https://github.com/user-attachments/assets/b9b18862-43c2-470f-807c-2822875cc6b0" />
-
-
 ## Results
 The overall axial deflection ended up being 0.009073in, which is a little off from the 0.009in given for the problem. At first I thought it was due to the different Young Moduli used, so I modified it. However, that did not help. The assignment did not take long to complete, around 1.5h, however it was my first  time using the simulation function and it is possible I made mistakes along the way I was too novice to catch, resulting in a slightly off deflection.
 The result I would trust more is the simulations. It is good to trust the results that would create a slightly larger deflection to be able to have a more generous trajectory of the final results in mind and design around those.
@@ -56,4 +51,7 @@ The stress concentration factor (Kt) for a hole in a flat bar in tension is 3.0.
 # For 2157 Students
 
 I already changed the length of my bar during the investigation. My prediction was that an increase in deflection would be caused by a shortening of the length. The length actually became longer.
+
+Link to the CAD File: https://drive.google.com/file/d/10eH73QKyN30FGl0VpfuvKdl-jgDq0Owd/view?usp=sharing
+
 
