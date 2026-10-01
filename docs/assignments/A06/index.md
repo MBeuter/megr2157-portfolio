@@ -153,6 +153,18 @@ I changed the standard to ANSI.
 
 <img width="1302" height="792" alt="image" src="https://github.com/user-attachments/assets/72864de3-650b-4dde-978e-bffa31402d0f" />
 
+Then inserted all information needed:
+
+<img width="949" height="742" alt="image" src="https://github.com/user-attachments/assets/11bad4e8-162a-486c-865d-924d91631b7e" />
+
+LESSONS LEARNED AND REFLECTION
+
+I learned that parts must be within reasonable tolerances of each other depending on it specific purpose; will it slide? Is it press-fit? I also learned that lower tolerances run more expensive.
+
+Functional intent can be communicated through the design and tolerances by the dimensions. If a hole is large compared to what it sits on, then the tolerance is likely to be acceptable at a large range. However, with lower tolerances, there will be less movement and thus possibly a more complex and expensive process.
+
+
+
 
 
 
