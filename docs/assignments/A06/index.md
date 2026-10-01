@@ -98,14 +98,11 @@ Updated:
 Feature D, f: = ( ( ( "W" * 12 ) / ( "L" * "SY" ) ) * 60.864 * 0.9026340546 * 0.9290604516 ) - 0.0004
 
 
-
-
-
 ## DRAWING
 
 The drawing process was fairly uneventful. I did not have the templates available at first, but I copy and pasted the path to them into SolidWorks and then I managed to get my hands on some.
 
-<img width="894" height="703" alt="image" src="https://github.com/user-attachments/assets/57ff0ec7-131f-4fbc-a818-8bdbf26bd349" />
+<img width="1000" height="775" alt="image" src="https://github.com/user-attachments/assets/aa655581-be91-4a88-8bb5-ad900107b14b" />
 
 This is the finished view of my design drawing. I decided to change the scale from 1:5 to 1:3 to make it easier to look at.
 
@@ -115,6 +112,8 @@ A) I used the cantilever beam equation Sigma=Force/Area in order to calculate th
 
 B) There is a very tight tolerance at gap a of -0.0005, and a lesser tolerance at the radius of the part of 0.01. The tight tolerance at a is reasonable due to the fact that it is the main surface that will prevent yaw movement of the part. The lower one for the radius makes sense because it is not a geometric value that is essential to the stability of the product in terms of fixation to a surface.
 I do have some parts with higher tolerance due to their relationship to gap a. When there are too many low tolerances, engineering production price sky-rockets and the project may not be approved for production until further revision.
+
+## 2157 Student Activity
 
 
 
