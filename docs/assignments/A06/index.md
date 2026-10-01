@@ -134,5 +134,25 @@ That is not supposed to look like that...
 
 That's not right either...
 
+<img width="732" height="817" alt="image" src="https://github.com/user-attachments/assets/b1d3291b-9267-4dd5-8e8b-d8b92a3ae67e" />
+
+This is right. And now with dimensions:
+
+<img width="801" height="829" alt="image" src="https://github.com/user-attachments/assets/b5b4bb73-b3de-43f7-9040-0ffc1a0a2e6e" />
+
+Where I used:
+d1 = sqr ( ( 2 * "W" * "L" * "SF" * 12 ) / ( "SY" * 3.14159 ) )
+h or width = ( ( ( 2 * "W" ) / ( "SY" * "t" ) ) + "d1" ) * "SF"
+
+d1 is the diameter of the first circle, d2 is the diameter of the second circle. We chose 1in for d2.
+h is the width of the object, and t is the thickness where we chose 1in.
+
+DRAWING
+
+I changed the standard to ANSI.
+
+<img width="1302" height="792" alt="image" src="https://github.com/user-attachments/assets/72864de3-650b-4dde-978e-bffa31402d0f" />
+
+
 
 
