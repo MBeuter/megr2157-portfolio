@@ -27,8 +27,7 @@ Due to incompleteness of the previous assignment from my part, I decided to redo
 
 
 ## PARAMETRIC DESIGN
-
-I misunderstood last week's assignment and did not make enough calculations. So to complete this week's assignment, I calculated the dimensions of all features based on the strength of the material as seen above.
+In the following pictures, I designed my bracket and overcame... situations.
 
 <img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/09d62103-0aae-424b-ba00-63cb72413b8d" />
 
@@ -49,17 +48,17 @@ The program then crashed on me and erased all of my progress while I was adding 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0814f827-e147-4833-9424-885ec0167f16" />
 
 I redid everything and realized that to calculate the width of feature B, I accidentally used r instead of 2r. I fixed that dimension and adjusted the widths.
-Here are all of the dimensions.
+Here are all of the improveddimensions.
 
 <img width="838" height="806" alt="image" src="https://github.com/user-attachments/assets/e64a5e1d-3809-4285-8c6c-1ce91e2a5139" />
 
 <img width="1453" height="938" alt="image" src="https://github.com/user-attachments/assets/ef4166fb-d6aa-4b58-a8e6-8ba1aa4a743b" />
 
-Feature B looks a little thin. I will make it 4 times as thick. This is to increase the safety factor in the area.
+Feature B looked a little thin. I made it 4 times as thick. This is to increase the safety factor in the area.
 
 <img width="931" height="804" alt="image" src="https://github.com/user-attachments/assets/e7908957-98c6-4395-96d0-9e68eb3c2e81" />
 
-I am satisfied with the way it looks. I will move on to the documentation part.
+I was satisfied with the way it looks. I moved on.
 
 <img width="951" height="298" alt="image" src="https://github.com/user-attachments/assets/d20b25d5-2cf5-48a0-8673-414852ae34d0" />
 
@@ -69,12 +68,18 @@ I configured the material to the T6 aluminum alloy:
 
 ## DRAWING
 
-The drawing process was fairly uneventful. I did not have the templates available at first, but I copy and pasted the path to them into SolidWorks and then I managed to get my hands on some of them.
+The drawing process was fairly uneventful. I did not have the templates available at first, but I copy and pasted the path to them into SolidWorks and then I managed to get my hands on some.
 
-<img width="845" height="658" alt="image" src="https://github.com/user-attachments/assets/8b035a5b-6b64-4d7a-a984-2ef06cf3fbed" />
+<img width="894" height="703" alt="image" src="https://github.com/user-attachments/assets/57ff0ec7-131f-4fbc-a818-8bdbf26bd349" />
 
-This is the finished view of my design drawing. I decided to chage the scale from 1:5 to 1:3 to make it easier to look at.
+This is the finished view of my design drawing. I decided to change the scale from 1:5 to 1:3 to make it easier to look at.
 
+## REFLECTIONS
+
+A) I used the cantilever beam equation Sigma=Force/Area in order to calculate the needed dimensions of feature B. The controlled variable here is the thickness of the feature. There are some equations involved in other parts, such as the sectional part along feature C, having a width 2r+2f where r is the radius of the circle below and f is the thickness of the top-most corners. I actually did mess up the calculation for b at first because I inserted r instead of 2r. I caught myself and was able to change the calculation. It did not affect other calculations however. I did need to manually rework some of the document, so I updated some of the equations spread throughout to match what it needed to be.
+
+B) There is a very tight tolerance at gap a of -0.0005, and a lesser tolerance at the radius of the part of 0.01. The tight tolerance at a is reasonable due to the fact that it is the main surface that will prevent yaw movement of the part. The lower one for the radius makes sense because it is not a geometric value that is essential to the stability of the product in terms of fixation to a surface.
+I do have some parts with higher tolerance due to their relationship to gap a. When there are too many low tolerances, engineering production price sky-rockets and the project may not be approved for production until further revision.
 
 
 
