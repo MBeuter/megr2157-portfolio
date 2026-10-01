@@ -19,12 +19,11 @@ I also realized that my decimals weren't exact enough.
 
 I double checked that my dimensions made sense and moved on to the extrusional features.
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d71ae85f-345b-4066-972a-aeb72b19969f" />
-
 The program then crashed on me and erased all of my progress while I was adding the extrusions... What I came back to:
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0814f827-e147-4833-9424-885ec0167f16" />
 
+I redid everything and realized that to calculate the width of feature B, I accidentally used r instead of 2r. I fixed that dimension and adjusted the widths 
 <img width="838" height="806" alt="image" src="https://github.com/user-attachments/assets/e64a5e1d-3809-4285-8c6c-1ce91e2a5139" />
 
 <img width="1453" height="938" alt="image" src="https://github.com/user-attachments/assets/ef4166fb-d6aa-4b58-a8e6-8ba1aa4a743b" />
