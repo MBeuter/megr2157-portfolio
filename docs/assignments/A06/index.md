@@ -66,6 +66,41 @@ I configured the material to the T6 aluminum alloy:
 
 <img width="848" height="754" alt="image" src="https://github.com/user-attachments/assets/4106a615-a1a8-4a62-9e4f-91193008bd1e" />
 
+I realized then that my equations were calculated externally and that we are supposed to make parametric equations based on the variables we used that may change. So, I started editing the dimensions of the files and turning them into equations! Naturally, SolidWorks had other plans for me:
+
+<img width="1057" height="658" alt="image" src="https://github.com/user-attachments/assets/d1677d4d-e28a-42f6-99ce-1afcf2f93528" />
+
+This time, I did safe my progress. Take that!
+
+Here are the worked up variables with their equations:
+
+<img width="952" height="340" alt="image" src="https://github.com/user-attachments/assets/a0ef6c55-c1a0-4586-ab81-4844ee7102db" />
+
+Feature A, r: = sqr ( ( 2 * "W" * "L" * "SF" * 12 ) / ( "SY" * 3.14159 ) )
+Feature B, b: = ( "W" * 12 ) / ( 2 * "r" * "SY" )
+Feature C, h: = sqr ( ( 3 * "W" * "L" * 12 ) / ( 4 * "r" * "SY" ) )
+Feature D, f: = ( ( ( "W" * 12 ) / ( "L" * "SY" ) ) * 60.864 )
+Feature E, i: = sqr ( ( 3 * "W" * "L" * 12 ) / ( 2 * "b2" * "SY" ) )
+
+When I finished adjusting, this is what it looked like:
+
+<img width="661" height="693" alt="image" src="https://github.com/user-attachments/assets/41538a6a-9873-49b9-a30b-6a2c3d5fbabc" />
+
+So I fixed a few things:
+
+<img width="1152" height="850" alt="image" src="https://github.com/user-attachments/assets/51f2a315-d797-4ed4-abc2-2b89e44a1839" />
+
+And managed to adjust it all!
+
+<img width="921" height="823" alt="image" src="https://github.com/user-attachments/assets/5ee4b326-6a47-46d1-9673-a10ab5e6430a" />
+
+Updated:
+Feature D, f: = ( ( ( "W" * 12 ) / ( "L" * "SY" ) ) * 60.864 * 0.9026340546 * 0.9290604516 ) - 0.0004
+
+
+
+
+
 ## DRAWING
 
 The drawing process was fairly uneventful. I did not have the templates available at first, but I copy and pasted the path to them into SolidWorks and then I managed to get my hands on some.
