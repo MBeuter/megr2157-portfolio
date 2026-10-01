@@ -115,6 +115,24 @@ I do have some parts with higher tolerance due to their relationship to gap a. W
 
 ## 2157 Student Activity
 
+So I started designing and SolidWorks crashed again:
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/3030f945-7d05-47f0-ba64-35db236d271d" />
+
+I managed to save it right beforehand and rebuild it by deleting the old equations and making new ones.
+I have made the parametric equations:
+
+<img width="1165" height="754" alt="image" src="https://github.com/user-attachments/assets/89f78c25-fc0f-4625-bcde-786320f2d6fd" />
+
+I extruded the linkage:
+
+<img width="577" height="775" alt="image" src="https://github.com/user-attachments/assets/2726f720-78de-4827-8dee-e0def5ede66c" />
+
+That is not supposed to look like that...
+
+<img width="607" height="747" alt="image" src="https://github.com/user-attachments/assets/4c4e6e5c-8f15-4872-b768-50902ddfc978" />
+
+That's not right either...
 
 
 
