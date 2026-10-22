@@ -1,4 +1,4 @@
-# A7 – [Topic]
+# A7 – FEA on Bracket and Link
 
 ## Objective
 The purpose of the assignment is to do an analysis of the beahvaior of a brakcet and a link in order to decide improvements in design.
