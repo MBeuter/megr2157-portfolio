@@ -34,6 +34,18 @@ I reselected some things.
 
 <img width="1135" height="805" alt="image" src="https://github.com/user-attachments/assets/ca0aeff7-edac-464e-9901-f043315c6e85" />
 
+I decided to hold the bottom and pull from the top.
 
+<img width="781" height="799" alt="image" src="https://github.com/user-attachments/assets/cd7a5c9f-7834-4dc9-b693-c58a74953913" />
+
+I created the mesh.
+
+<img width="1326" height="882" alt="image" src="https://github.com/user-attachments/assets/ce460003-c501-4bbf-876b-e7801c9e6e72" />
+
+I ran the simulation.
+
+<img width="1312" height="922" alt="image" src="https://github.com/user-attachments/assets/3753b481-5c08-46b4-b3aa-542ef45cf591" />
+
+It failed.
 
 ## Reflection
