@@ -14,9 +14,6 @@ The following images show the road to my calculations, deciding on different len
 
 I made a mistake and realized that my gears were too small in comparison to the bearings that were supposed to fit inside. So I recalculated.
 
-<img width="1480" height="718" alt="image" src="https://github.com/user-attachments/assets/fd17aa05-b600-4a3a-8eaa-02a408732f36" />
-
-<img width="1482" height="750" alt="image" src="https://github.com/user-attachments/assets/e34f7fc5-1e0c-4540-aec4-27dd4af19a46" />
 
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/454b1da8-eeae-4c77-b427-96c6cefb96c8" />
