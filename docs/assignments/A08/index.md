@@ -74,7 +74,7 @@ These are details that would take longer to configure than one would hope. Due t
 ## Reflection
 I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the differnt diameters with each other. It is also important to start on these homework assignments as early as possible.
 
-## MEGR2157
+## MEGR2157: Drawings
 I struggled to make the sheets because my products would not show up in the side view to be dragged in.
 
 <img width="1912" height="1075" alt="image" src="https://github.com/user-attachments/assets/62586035-698c-464c-b442-762cc138a26e" />
@@ -94,18 +94,18 @@ I managed to figure it out, and I created all of the sheets without further issu
 <img width="913" height="712" alt="image" src="https://github.com/user-attachments/assets/60240646-cdcb-4e71-bfec-f64c7a49fadf" />
 
 Attached are the links of all of my CAD files incl. sheets.
-- Assembly Drawing:
-- Housing Drawing:
-- Gear Shaft Bearing Drawing:
-- Pinion Shaft Bearing Drawing:
-- Gear Shaft Drawing:
-- Pinion Shaft Drawing:
+- Assembly Drawing: https://drive.google.com/file/d/1b360_6qN2yhow3fM__6EXF2g2fzDKgps/view?usp=drive_link
+- Housing Drawing: https://drive.google.com/file/d/1WJ0uaRu9GTcOxli0PBZlFApG7XHLKYuN/view?usp=drive_link
+- Gear Shaft Bearing Drawing: https://drive.google.com/file/d/1ougXH8FOFgXfA0EDE3GSJVAfEx7ZzpQ7/view?usp=drive_link
+- Pinion Shaft Bearing Drawing: https://drive.google.com/file/d/1Vq9eLBOWP8p6vFi9KARtaMsX4xKVjXi1/view?usp=drive_link
+- Gear Shaft Drawing: https://drive.google.com/file/d/1X-Kp4R5wMsYOvUz7X_OQ8N8cFbWTdaFZ/view?usp=drive_link
+- Pinion Shaft Drawing: https://drive.google.com/file/d/1NO4iGiKA5ht5QF6BRZqjgZfL6ja0eIMy/view?usp=drive_link
 
-- Assembly:
-- Housing:
-- Gear Shaft Bearing:
-- Pinion Shaft Bearing:
-- Gear Shaft:
-- Pinion Shaft:
-
-
+- Assembly: https://drive.google.com/file/d/1BuT9QpItr7cRg8rCoEjdR4o_SFwZGGPk/view?usp=drive_link
+- Housing: https://drive.google.com/file/d/1ZJ0sscq994qz6f9kafT1zWz3OqhfX79b/view?usp=drive_link
+- Gear Shaft Bearing: https://drive.google.com/file/d/1s50-5uhBSqmp7PUZ8ly_Ozxv_6pMF_rH/view?usp=drive_link
+- Pinion Shaft Bearing: https://drive.google.com/file/d/1Jlo1P2wQWGQIUExjcBnW2Pjr_rFRRTv_/view?usp=drive_link
+- Gear Shaft: https://drive.google.com/file/d/1vt08PH2i07hY_HTleGnAeAcA77fls-Qj/view?usp=drive_link
+- Pinion Shaft: https://drive.google.com/file/d/1iX48JzS-4svUrM9AK5_ThDok7Rkh60yL/view?usp=drive_link
+- Driven Gear: https://drive.google.com/file/d/1DPi8xBx0gaFI7KBLGhrFUGn2__j45eh5/view?usp=drive_link
+- Pinion Gear: https://drive.google.com/file/d/1j-rOqt7X3b_9aw3YKQqIRvhQU9oO5YjA/view?usp=drive_link
