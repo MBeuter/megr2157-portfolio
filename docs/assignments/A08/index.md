@@ -47,7 +47,7 @@ Here is the base for the housing.
 
 <img width="1290" height="900" alt="image" src="https://github.com/user-attachments/assets/1b62f3ac-f591-4a64-a351-f957db409028" />
 
-For the holes for the bolts.
+I made the holes for the bolts.
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/3ac1a354-5aca-4b7a-8a43-7700370f81ce" />
 
@@ -60,7 +60,7 @@ I cleaned up the sketch.
 <img width="924" height="727" alt="image" src="https://github.com/user-attachments/assets/503def76-1e01-4838-8995-6384fe8f36b4" />
 
 This is the finished housing for the gears. You can remove one side. It is expected to be held in place by nuts and bolts.
-The removable side cannot be moved despite it not being attached. I could not figure out how to take it off.
+I made sure not to attach the lid end, however, I could not figure out how to detach its face from the housing, despite selecting for it not to merge.
 
 <img width="822" height="864" alt="image" src="https://github.com/user-attachments/assets/b8fdd461-fa21-40bc-acc2-66a9c3843ff5" />
 
