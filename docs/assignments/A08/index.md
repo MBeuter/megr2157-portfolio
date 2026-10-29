@@ -74,3 +74,38 @@ These are details that would take longer to configure than one would hope. Due t
 ## Reflection
 I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the differnt diameters with each other. It is also important to start on these homework assignments as early as possible.
 
+## MEGR2157
+I struggled to make the sheets because my products would not show up in the side view to be dragged in.
+
+<img width="1912" height="1075" alt="image" src="https://github.com/user-attachments/assets/62586035-698c-464c-b442-762cc138a26e" />
+
+I managed to figure it out, and I created all of the sheets without further issues. (I figured it out by copy and pasting the initial view and changing the perspectives).
+
+<img width="1044" height="813" alt="image" src="https://github.com/user-attachments/assets/35b4c123-e0c9-418b-acbd-5d5b3ed65106" />
+
+<img width="943" height="736" alt="image" src="https://github.com/user-attachments/assets/05de6ae3-a812-498b-84d6-68b5b74450d9" />
+
+<img width="850" height="667" alt="image" src="https://github.com/user-attachments/assets/a5644863-a28d-4c67-9514-4518e5120a95" />
+
+<img width="921" height="721" alt="image" src="https://github.com/user-attachments/assets/d73e48b3-c1e1-4bb3-a463-513d9da6bdce" />
+
+<img width="1020" height="795" alt="image" src="https://github.com/user-attachments/assets/2c0d1ad7-010e-4944-8b3c-b3386ce75905" />
+
+<img width="913" height="712" alt="image" src="https://github.com/user-attachments/assets/60240646-cdcb-4e71-bfec-f64c7a49fadf" />
+
+Attached are the links of all of my CAD files incl. sheets.
+- Assembly Drawing:
+- Housing Drawing:
+- Gear Shaft Bearing Drawing:
+- Pinion Shaft Bearing Drawing:
+- Gear Shaft Drawing:
+- Pinion Shaft Drawing:
+
+- Assembly:
+- Housing:
+- Gear Shaft Bearing:
+- Pinion Shaft Bearing:
+- Gear Shaft:
+- Pinion Shaft:
+
+
