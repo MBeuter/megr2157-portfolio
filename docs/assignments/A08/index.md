@@ -67,12 +67,12 @@ I made sure not to attach the lid end, however, I could not figure out how to de
 This is what the final product looks like. There are clearly many things wrong with it:
 - The gears do not mesh as they are too far apart. The hull has been designed too large.
 - Even if the gears were to mesh, they are too dissimilar and might get stuck.
-- The lid may be separate, however it should have been made separately, in order to be able to create an exploded view.
+- The lid may not be merged onto the hull, but it should have been made separately entirely, in hindsight. Because now I can't get it apart to create an exploded view.
 
 These are details that would take longer to configure than one would hope. Due to the pedantic nature of such endeavor, it is more productive to acknowledge the mistakes and do better next time.
 
 ## Reflection
-I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the differnt diameters with each other. It is also important to start on these homework assignments as early as possible.
+I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the different diameters with each other. It is also important to start on these homework assignments as early as possible.
 
 ## MEGR2157: Drawings
 I struggled to make the sheets because my products would not show up in the side view to be dragged in.
