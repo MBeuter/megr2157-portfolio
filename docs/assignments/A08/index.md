@@ -72,7 +72,7 @@ This is what the final product looks like. There are clearly many things wrong w
 These are details that would take longer to configure than one would hope. Due to the pedantic nature of such endeavor, it is more productive to acknowledge the mistakes and do better next time.
 
 ## Reflection
-I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the different diameters with each other. It is also important to start on these homework assignments as early as possible.
+I have learned that I know more about SOLIDWORKS than I thought, and yet not enough. I have relearned many operations such as filetting, mirroring, or creating circular patterns amongst other. I have also learned how many complicated equations may be involved in the design of such a simple configuration; the choices were almost overwhelming. It is important to label variables correctly; I would constantly mistake the different diameters with each other. It is also important to start on these homework assignments as early as possible. This assignment took me at least 9h.
 
 ## MEGR2157: Drawings
 I struggled to make the sheets because my products would not show up in the side view to be dragged in.
@@ -94,6 +94,7 @@ I managed to figure it out, and I created all of the sheets without further issu
 <img width="913" height="712" alt="image" src="https://github.com/user-attachments/assets/60240646-cdcb-4e71-bfec-f64c7a49fadf" />
 
 Attached are the links of all of my CAD files incl. sheets.
+
 - Assembly Drawing: https://drive.google.com/file/d/1b360_6qN2yhow3fM__6EXF2g2fzDKgps/view?usp=drive_link
 - Housing Drawing: https://drive.google.com/file/d/1WJ0uaRu9GTcOxli0PBZlFApG7XHLKYuN/view?usp=drive_link
 - Gear Shaft Bearing Drawing: https://drive.google.com/file/d/1ougXH8FOFgXfA0EDE3GSJVAfEx7ZzpQ7/view?usp=drive_link
