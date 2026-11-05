@@ -94,6 +94,8 @@ I obtained the shear stress value:
 
 <img width="699" height="88" alt="image" src="https://github.com/user-attachments/assets/41fa006c-e0b7-4ae7-8c9c-e11470ccae68" />
 
+Source: https://www.fabdigit.com/materials/steel-1060/
+
 Finally, we calculate:
 
 <img width="723" height="295" alt="image" src="https://github.com/user-attachments/assets/e2f6a787-24ea-4957-b937-80a73d04d1c0" />
@@ -102,9 +104,45 @@ Finally, we calculate:
 
 ## Journal Bearing Design
 
-## Design of Frame
+We begin with what is provided and what is sought, and create a sketch to guide the process:
 
-Based on this graphic, found that a o.5" thick pulley can support a 5/16" belt:
+<img width="1158" height="616" alt="image" src="https://github.com/user-attachments/assets/11628e69-0716-4c94-b8b2-89ea8347e846" />
+
+Next, we calculate the required clearances and diameters to be able to use them for our calculations. For this, we go based on a graphic in the book on page 2412. It is also possible to verify the calculated clearances with those of a sliding fit on page 654:
+
+<img width="942" height="823" alt="image" src="https://github.com/user-attachments/assets/8ff2bc5e-376a-4540-b7cd-44ad14c8e2d0" />
+
+We use the information on page 2412 to also determine which length we would like our bearings to have. In this, we assume that the bearing is for generators or motor with a L/d ratio of 1.2 to 2.5. This assumption in the context makes sense considering that many pulleys in the real world that work beside each other will most likely have a driving pulley that has a motor. We choose 2:
+
+<img width="936" height="285" alt="image" src="https://github.com/user-attachments/assets/bdef8ecf-f172-48a3-bbf4-6a709f9281fc" />
+
+We calculate P, V and PV:
+
+<img width="934" height="403" alt="image" src="https://github.com/user-attachments/assets/9d5a0e17-86b0-47e6-ab20-346938a0a7a9" />
+
+Through these calculations, we choose the table on page 2442 to decide on a material for our bearings:
+
+<img width="922" height="676" alt="image" src="https://github.com/user-attachments/assets/d0cc14c0-04f6-4f0b-9b03-7b2d934c8ddb" />
+
+Reinforced teflon checks all of the boxes so we choose that for our bearing material.
+
+## Design of Frame
+We were tasked to design a frame for the above set-up. A sketch illustrates a potential design:
+
+<img width="826" height="289" alt="image" src="https://github.com/user-attachments/assets/a9e8eb97-b2d7-4985-ab17-067a35097b35" />
+
+I calculated and choose the clearances around the holes based on page 655 in the course materials book:
+
+<img width="729" height="634" alt="image" src="https://github.com/user-attachments/assets/a369b226-839b-49ef-bbc7-89d07e5df9ac" />
+
+<img width="865" height="156" alt="image" src="https://github.com/user-attachments/assets/4ea8d34e-e6ef-495a-a6ab-e066a0115866" />
+
+Next we calculate the weight of the individual materials that will be weighing down on the frame to be able to determine the minimum thickness required to support everything:
+
+<img width="819" height="268" alt="image" src="https://github.com/user-attachments/assets/115a422a-2a40-496d-a210-174aa38bb77a" />
+
+Before I can calculate the weight of a pulley, I need its thickness.
+Based on this graphic, I found that a o.5" thick pulley can support a 5/16" belt:
 
 <img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/ad94afb2-06fe-424e-9c8e-37f28081aea7" />
 
@@ -113,6 +151,8 @@ During the upcoming calculations, it shall be assumed that the pulley is a plate
 I used the following source to obtain the density of the aluminum: https://www.azom.com/article.aspx?ArticleID=6636
 
 <img width="1093" height="547" alt="image" src="https://github.com/user-attachments/assets/48b6caed-d3aa-43de-8530-6b4653a1c4a3" />
+
+<img width="897" height="682" alt="image" src="https://github.com/user-attachments/assets/c5b44216-ed87-47a7-b1e7-0ef5273ee3f5" />
 
 
 I used the following source to obstain the density of the 1060 hardened steel: https://www.azom.com/article.aspx?ArticleID=6542
@@ -123,9 +163,13 @@ I used the following website to obtain the density of teflon for the bearings: h
 
 <img width="433" height="73" alt="image" src="https://github.com/user-attachments/assets/b2433bb3-a15a-4ef9-a2a6-29ab73f1bf8f" />
 
+Then I calculated the weight of one bearing  in its minimal length:
+<img width="925" height="397" alt="image" src="https://github.com/user-attachments/assets/e6834cca-848f-4c36-971d-bbc9efe50026" />
+
 The link to the data sheet for the Al-1060-O information to gain the bearing yield strength is here: https://www.scribd.com/document/559748450/Aluminum-1060-data-sheet
 
 <img width="543" height="49" alt="image" src="https://github.com/user-attachments/assets/5140c23d-6bf1-40f4-b9bf-35e0ffa3e27c" />
+
 
 
 ## Lessons Learned
