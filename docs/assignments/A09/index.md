@@ -1,5 +1,6 @@
 # A9 – Pulley System Design
 
+
 ## Objective
 The purpose of the assignment is to be familiarized with friction, static analysis and dynamic analysis. The following conditions are listed, alongside chosen variables within the constraints of the problem set:
 - Pulley Diameter: 3in
@@ -17,7 +18,6 @@ The following image taken from the assignment statement shows the pulley conditi
 
 ## Component Designs
 ## Belt Design
-
 Starting with the belt design, it is important to understand the parameters required to make a choice on https://www.google.com/url?q=https://www.mcmaster.com/products/round-belts/round-belts-8/&sa=D&source=editors&ust=1793859999195149&usg=AOvVaw3hLMaxaDO5wEofOq5mYEw7 .
 
 Listing all important variables:
@@ -101,9 +101,7 @@ Finally, we calculate:
 <img width="723" height="295" alt="image" src="https://github.com/user-attachments/assets/e2f6a787-24ea-4957-b937-80a73d04d1c0" />
 
 
-
 ## Journal Bearing Design
-
 We begin with what is provided and what is sought, and create a sketch to guide the process:
 
 <img width="1158" height="616" alt="image" src="https://github.com/user-attachments/assets/11628e69-0716-4c94-b8b2-89ea8347e846" />
@@ -125,6 +123,7 @@ Through these calculations, we choose the table on page 2442 to decide on a mate
 <img width="922" height="676" alt="image" src="https://github.com/user-attachments/assets/d0cc14c0-04f6-4f0b-9b03-7b2d934c8ddb" />
 
 Reinforced teflon checks all of the boxes so we choose that for our bearing material.
+
 
 ## Design of Frame
 We were tasked to design a frame for the above set-up. A sketch illustrates a potential design:
@@ -154,7 +153,6 @@ I used the following source to obtain the density of the aluminum: https://www.a
 
 <img width="897" height="682" alt="image" src="https://github.com/user-attachments/assets/c5b44216-ed87-47a7-b1e7-0ef5273ee3f5" />
 
-
 I used the following source to obstain the density of the 1060 hardened steel: https://www.azom.com/article.aspx?ArticleID=6542
 
 <img width="1111" height="586" alt="image" src="https://github.com/user-attachments/assets/50c8d905-b4bd-4a5e-a62f-1db9245ed472" />
@@ -163,14 +161,37 @@ I used the following website to obtain the density of teflon for the bearings: h
 
 <img width="433" height="73" alt="image" src="https://github.com/user-attachments/assets/b2433bb3-a15a-4ef9-a2a6-29ab73f1bf8f" />
 
-Then I calculated the weight of one bearing  in its minimal length:
+Then I calculated the weight of one shaft in its minimal length:
 <img width="925" height="397" alt="image" src="https://github.com/user-attachments/assets/e6834cca-848f-4c36-971d-bbc9efe50026" />
+
+Here is where I am getting the teflon density from: https://laminatedplastics.com/teflon.pdfc
+
+<img width="564" height="81" alt="image" src="https://github.com/user-attachments/assets/06c74b10-14fb-435f-96cb-5cc64c3dd291" />
+
+Next I determined the bearing weight:
+
+<img width="886" height="234" alt="image" src="https://github.com/user-attachments/assets/8410d0f7-db87-4c11-8d73-256c887c34de" />
+
+<img width="925" height="379" alt="image" src="https://github.com/user-attachments/assets/4a7c591a-1181-45f1-a2f6-45d9de4107fd" />
 
 The link to the data sheet for the Al-1060-O information to gain the bearing yield strength is here: https://www.scribd.com/document/559748450/Aluminum-1060-data-sheet
 
 <img width="543" height="49" alt="image" src="https://github.com/user-attachments/assets/5140c23d-6bf1-40f4-b9bf-35e0ffa3e27c" />
 
+I calculated the total bearing force per hole:
+
+<img width="903" height="631" alt="image" src="https://github.com/user-attachments/assets/bc7b5981-4777-4bb7-9fbc-06723eb1e736" />
+
+<img width="825" height="292" alt="image" src="https://github.com/user-attachments/assets/f37ae773-d7d1-4f20-878a-c2b40ad72e69" />
+
+I chose aluminum 1060-O for the frame material and looked up its bearing yield strength as mentioned before.
+
+With a safety factor of 3, I determined the minimum thickness of the frame to be 0.004685in. As this is very thin, I decided for a larger option and picked 0.5in.
+
+<img width="775" height="418" alt="image" src="https://github.com/user-attachments/assets/ec0b8b00-8499-4397-9fb5-38fd2139999f" />
+
+Finally I determined the design of the frame as seen above with the written measurements.
 
 
 ## Lessons Learned
-
+I learned that the engineering process is a thorough one that requires the review of a variety of sources (which must be verified), a thorough sense for investigation and expansion of one's accuracy and precision, and a a lot of time. I spent 6h on this assignment. It is important in tasks such as these to take into consideration that several components may build upon each other, which means that more information written down or calculated may safe more time later down the line. I have learned that designing as an engineer also requires real-world consideration; just because I calculate a certain thickness or length, there is no guarantee that this object will exist in this form in the real world. It is important to be flexible in one's approach of choosing the appropriate materials to reach one's goal and to take into account possible downsides when choosing one object over another (e.g. lower safety factor due to smaller thickness, or higher cost due to excessive length but limited availability of what is needed). The real world is full of options and we are fortunate in this day and age to have so many choices and freedom in our design choices in order to make the objects, as engineers, that we aspire to bring into reality. Technically, I have learned how to create a pulley system by choosing proper clearances, determining the correct belt and choosing proper materials that will get the job done. I have also learned how to navigate the course materials book better and will be able to find charts and reference points faster in the future.
