@@ -18,9 +18,27 @@ The following image taken from the assignment statement shows the pulley conditi
 ## Component Designs
 ## Belt Design
 
-I want to use the exact kinetic coefficient of friction for polyurethane rubber, so I found an article on scientific.net: https://www.scientific.net/AMM.26-28.320
+Starting with the belt design, it is important to understand the parameters required to make a choice on https://www.google.com/url?q=https://www.mcmaster.com/products/round-belts/round-belts-8/&sa=D&source=editors&ust=1793859999195149&usg=AOvVaw3hLMaxaDO5wEofOq5mYEw7 .
 
- Despite finding this article, it was inaccessible to me. Although UNCC had a logon for students, trying to use my credentials brought up issues. I tried at least 3 times through these 2 UNCC pages and a third one I found:
+Listing all important variables:
+
+<img width="921" height="379" alt="image" src="https://github.com/user-attachments/assets/7cdf2a7e-280c-4285-befc-794a78ea54f7" />
+
+Providing the FDB:
+
+<img width="967" height="634" alt="image" src="https://github.com/user-attachments/assets/f7234a31-7a16-4654-8b1b-67bde1e54538" />
+
+I attempted to calculate the two pulley forces (FH and FL) by using the power formula. Until I realized that we do not have the power...
+
+<img width="993" height="379" alt="image" src="https://github.com/user-attachments/assets/52994128-800c-4066-a782-e296a02eee7d" />
+
+Instead I used the belt friction formula.ä
+
+<img width="630" height="276" alt="image" src="https://github.com/user-attachments/assets/1f7835e1-8e7d-4368-93f7-dcaeaefe9b26" />
+
+I wanted to use the exact kinetic coefficient of friction for polyurethane rubber, so I found an article on scientific.net: https://www.scientific.net/AMM.26-28.320
+
+Despite finding this article, it was inaccessible to me. Although UNCC had a log-on for students, trying to use my credentials brought up issues. I tried at least 3 times through these 2 UNCC pages and a third one I found:
  
 <img width="1824" height="876" alt="image" src="https://github.com/user-attachments/assets/68ef7b44-a6bc-490b-9a41-b32d5f4d7559" />
  
@@ -36,7 +54,25 @@ I was able to find a table by the Slovak University of Technology in Bratislava:
 
 Here, MuStatic=0.8. We are picking the static coefficient of friction because we do not want the belt to slip against the circumferal surfaces of the pulley. Otherwise, the pulled pulley would not be put into motion.
 
-With this in mind, we can now move on to figuring out the forces throught the belt
+<img width="441" height="208" alt="image" src="https://github.com/user-attachments/assets/8653bb61-b4d9-4938-aa04-2ad86c4c011f" />
+
+With this in mind, we can now move on to figuring out the forces throught the belt.
+
+<img width="1060" height="775" alt="image" src="https://github.com/user-attachments/assets/4275f5f4-5b01-42bc-99ec-06d32f9bf865" />
+
+<img width="730" height="117" alt="image" src="https://github.com/user-attachments/assets/5b46c7a1-ba95-44b7-9dd2-72468957692b" />
+
+Next, it was necessary to figure out which belt would be used. I calculated the required area and diameter.
+
+<img width="1176" height="771" alt="image" src="https://github.com/user-attachments/assets/3445ec68-90b2-4d7b-8bef-60712435f85f" />
+
+Then I chose a diameter that would fulfill these minimum requirements on the website provided:
+
+<img width="762" height="741" alt="image" src="https://github.com/user-attachments/assets/5d510340-e920-4b08-aafe-534f9688bc2e" />
+
+Then I calculated the required circumferal length of the belt:
+
+<img width="1125" height="525" alt="image" src="https://github.com/user-attachments/assets/4425a8a3-8ce2-45c7-92ff-eb98d6833d70" />
 
 This belt is chosen as it fulfills the requirements for a minimum belt diameter of 0.274" and can have a possible belt circumference of 25.43":
 
