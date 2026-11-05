@@ -45,9 +45,29 @@ This belt is chosen as it fulfills the requirements for a minimum belt diameter 
 
 ## Shaft's Diameter Design
 
+<img width="699" height="88" alt="image" src="https://github.com/user-attachments/assets/41fa006c-e0b7-4ae7-8c9c-e11470ccae68" />
+
+
 ## Journal Bearing Design
 
 ## Design of Frame
+
+Based on this graphic, found that a o.5" thick pulley can support a 5/16" belt:
+
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/ad94afb2-06fe-424e-9c8e-37f28081aea7" />
+
+During the upcoming calculations, it shall be assumed that the pulley is a plate of thickness t. For simplicity, the groove around the circumference shall not be subtracted from the overall volume. This will not affect our choice in frame material negatively. Quite the opposite. It will make it safer thanks to a slight overstimation in mass of the pulleys.
+
+I used the following source to obtain the density of the aluminum: https://www.azom.com/article.aspx?ArticleID=6636
+
+<img width="1093" height="547" alt="image" src="https://github.com/user-attachments/assets/48b6caed-d3aa-43de-8530-6b4653a1c4a3" />
+
+
+I used the following source to obstain the density of the 1060 hardened steel: https://www.azom.com/article.aspx?ArticleID=6542
+
+<img width="1111" height="586" alt="image" src="https://github.com/user-attachments/assets/50c8d905-b4bd-4a5e-a62f-1db9245ed472" />
+
+I used the following website to 
 
 ## Lessons Learned
 
