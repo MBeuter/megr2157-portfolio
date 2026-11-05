@@ -67,7 +67,14 @@ I used the following source to obstain the density of the 1060 hardened steel: h
 
 <img width="1111" height="586" alt="image" src="https://github.com/user-attachments/assets/50c8d905-b4bd-4a5e-a62f-1db9245ed472" />
 
-I used the following website to 
+I used the following website to obtain the density of teflon for the bearings: https://laminatedplastics.com/teflon.pdf
+
+<img width="433" height="73" alt="image" src="https://github.com/user-attachments/assets/b2433bb3-a15a-4ef9-a2a6-29ab73f1bf8f" />
+
+The link to the data sheet for the Al-1060-O information to gain the bearing yield strength is here: https://www.scribd.com/document/559748450/Aluminum-1060-data-sheet
+
+<img width="543" height="49" alt="image" src="https://github.com/user-attachments/assets/5140c23d-6bf1-40f4-b9bf-35e0ffa3e27c" />
+
 
 ## Lessons Learned
 
