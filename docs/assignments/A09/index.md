@@ -15,12 +15,6 @@ The following image taken from the assignment statement shows the pulley conditi
 <img width="745" height="238" alt="image" src="https://github.com/user-attachments/assets/2c909c6c-1ecf-4c39-a3ce-3cff61b42443" />
 
 
-
-This belt is chosen as it fulfills the requirements for a minimum belt diameter of 0.274" and can have a possible belt circumference of 25.43":
-
-<img width="1267" height="370" alt="image" src="https://github.com/user-attachments/assets/6482a9d2-a513-4458-b7d4-ed076ea2f4aa" />
-
-
 ## Component Designs
 ## Belt Design
 
@@ -43,6 +37,10 @@ I was able to find a table by the Slovak University of Technology in Bratislava:
 Here, MuStatic=0.8. We are picking the static coefficient of friction because we do not want the belt to slip against the circumferal surfaces of the pulley. Otherwise, the pulled pulley would not be put into motion.
 
 With this in mind, we can now move on to figuring out the forces throught the belt
+
+This belt is chosen as it fulfills the requirements for a minimum belt diameter of 0.274" and can have a possible belt circumference of 25.43":
+
+<img width="1267" height="370" alt="image" src="https://github.com/user-attachments/assets/6482a9d2-a513-4458-b7d4-ed076ea2f4aa" />
 
 
 ## Shaft's Diameter Design
