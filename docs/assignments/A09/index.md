@@ -32,7 +32,7 @@ I attempted to calculate the two pulley forces (FH and FL) by using the power fo
 
 <img width="993" height="379" alt="image" src="https://github.com/user-attachments/assets/52994128-800c-4066-a782-e296a02eee7d" />
 
-Instead I used the belt friction formula.ä
+Instead I used the belt friction formula:
 
 <img width="630" height="276" alt="image" src="https://github.com/user-attachments/assets/1f7835e1-8e7d-4368-93f7-dcaeaefe9b26" />
 
@@ -80,8 +80,24 @@ This belt is chosen as it fulfills the requirements for a minimum belt diameter 
 
 
 ## Shaft's Diameter Design
+First we determine the required variables and provided numbers:
+
+<img width="793" height="363" alt="image" src="https://github.com/user-attachments/assets/795813fa-62d9-4356-b9e8-18dd94c76e8a" />
+
+<img width="915" height="433" alt="image" src="https://github.com/user-attachments/assets/99d88abe-4bce-4c64-a652-8b97353e8a17" />
+
+Here is the FDB. A single plane shear force will decide the required minimum diameter of the shaft:
+
+<img width="1099" height="354" alt="image" src="https://github.com/user-attachments/assets/cc59e3f8-48aa-4dec-bd27-4ec00e2cade7" />
+
+I obtained the shear stress value:
 
 <img width="699" height="88" alt="image" src="https://github.com/user-attachments/assets/41fa006c-e0b7-4ae7-8c9c-e11470ccae68" />
+
+Finally, we calculate:
+
+<img width="723" height="295" alt="image" src="https://github.com/user-attachments/assets/e2f6a787-24ea-4957-b937-80a73d04d1c0" />
+
 
 
 ## Journal Bearing Design
