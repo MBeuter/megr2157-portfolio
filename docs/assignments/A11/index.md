@@ -64,8 +64,13 @@ I chose this one because it comes in a pack of 5. I can buy 2 packs and have two
 
 Calculations-wise, I found the following:
 
+<img width="876" height="681" alt="image" src="https://github.com/user-attachments/assets/10577186-d48a-4090-8c21-4594da853c62" />
+
 The nut is taking too much thickness away from the plate. We need a thinner fastener. Since the main forces will be horizontally and the vertical forces will be pulling the motor downwards, the nut just needs to hold the motor in place enough not to come off easily.
-Upond second viewing, I did find another fastener, however I realized that my assumption of 450lbf was most likely off. WE use the torque. I drew the distances of the bolts to the motor in SolidWorks:
+
+<img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/198e4cfb-a8ba-437e-aed3-84261daba4b0" />
+
+Upond second viewing, I did find another fastener, however I realized that my assumption of 450lbf was most likely off. We use the torque. I drew the distances of the bolts to the motor in SolidWorks:
 
 <img width="867" height="718" alt="image" src="https://github.com/user-attachments/assets/693492a1-d174-485b-8b74-9be8ae1b9077" />
 
@@ -73,7 +78,13 @@ Since it is a spinning motion, we assume that the force works perpendicular to e
 
 To confirm the chosen thickness, we use the longest distance:
 
-I made the bottom plate:
+<img width="883" height="408" alt="image" src="https://github.com/user-attachments/assets/540ca804-44c9-404f-b235-5a7ee1beeafd" />
+
+<img width="828" height="475" alt="image" src="https://github.com/user-attachments/assets/d211a363-938b-4cce-9c26-2255c1554879" />
+
+Based on the calculations, the minimum thickness is 0.00612in. We choose to go with a thickness of 0.186in.
+
+I started making the bottom plate:
 
 <img width="1296" height="903" alt="image" src="https://github.com/user-attachments/assets/cd3fa3d0-a13e-429c-bd61-8f583a31d767" />
 
@@ -109,10 +120,37 @@ The attempt was successful.
 
 <img width="1203" height="760" alt="image" src="https://github.com/user-attachments/assets/c4c970d2-c960-4526-a700-26c6e40f893b" />
 
-The final brackets accomodate for the studs from the motor as well have holes for bolts and nuts combos to fasten everything.
+The final brackets accomodate for the studs from the motor as well have holes for bolts and nuts combos to fasten everything. The same part can be used for the top and bottom. The final configuration looks like:
+
+<img width="1374" height="909" alt="image" src="https://github.com/user-attachments/assets/c4ac0a4e-a6a3-436e-be2c-240d638391c0" />
+
 
 ## Coupler
+We calculate the dimensions of the coupler.
 
+<img width="1450" height="538" alt="image" src="https://github.com/user-attachments/assets/580265f8-33df-45bb-b6ce-a4fb6039012a" />
+
+<img width="1449" height="591" alt="image" src="https://github.com/user-attachments/assets/bf2d4b93-6e47-4aec-a3e3-da0986632674" />
+
+<img width="1277" height="534" alt="image" src="https://github.com/user-attachments/assets/9b795eb7-98dd-4079-97ce-9135e5f868ec" />
+
+<img width="1284" height="277" alt="image" src="https://github.com/user-attachments/assets/c0ec431d-d37e-443f-b6cf-4018469f3b9f" />
+
+The mininum thickness with the chosen material is 0.0016in.
+
+We choose the following values:
+
+<img width="1328" height="406" alt="image" src="https://github.com/user-attachments/assets/35b05b14-9892-4191-a95b-65b368dec69a" />
+
+The motor side dimensions are also calculated.
+
+<img width="1353" height="763" alt="image" src="https://github.com/user-attachments/assets/bb8b4e97-fcd5-45c5-b3b7-ec6b9c9ea5e3" />
+
+<img width="1455" height="573" alt="image" src="https://github.com/user-attachments/assets/3e634bec-e01e-4b25-90cf-3aafe4d3a72a" />
+
+<img width="1451" height="732" alt="image" src="https://github.com/user-attachments/assets/abb4f8de-a41d-40d3-8c26-6b7819532e60" />
+
+We now have all of the dimensions we need
 Finally, the coupler is designed.
 
 <img width="1308" height="946" alt="image" src="https://github.com/user-attachments/assets/e1e017c2-cb42-4902-b9c1-d39b4fee85c8" />
