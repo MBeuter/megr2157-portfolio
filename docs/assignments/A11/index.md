@@ -66,6 +66,18 @@ I chose this one because it comes in a pack of 5. I can buy 2 packs and have two
 
 Calculations-wise, I found the following:
 
+The nut is taking too much thickness away from the plate. We need a thinner fastener. Since the main forces will be horizontally and the vertical forces will be pulling the motor downwards, the nut just needs to hold the motor in place enough not to come off easily.
+Upond second viewing, I did find another fastener, however I realized that my assumption of 450lbf was most likely off. WE use the torque. I drew the distances of the bolts to the motor in SolidWorks:
+
+<img width="867" height="718" alt="image" src="https://github.com/user-attachments/assets/693492a1-d174-485b-8b74-9be8ae1b9077" />
+
+Since it is a spinning motion, we assume that the force works perpendicular to each line.
+
+To confirm the chosen thickness, we use the longest distance:
+
+
+
+
 
 
 ## Coupler
