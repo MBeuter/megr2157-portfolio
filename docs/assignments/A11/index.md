@@ -73,14 +73,47 @@ Since it is a spinning motion, we assume that the force works perpendicular to e
 
 To confirm the chosen thickness, we use the longest distance:
 
+I made the bottom plate:
 
+<img width="1296" height="903" alt="image" src="https://github.com/user-attachments/assets/cd3fa3d0-a13e-429c-bd61-8f583a31d767" />
 
+I had to edit it.
 
+<img width="751" height="562" alt="image" src="https://github.com/user-attachments/assets/f750e733-9952-43f1-91f9-e4ff65260932" />
 
+I realized again that I had to edit it because it would not line up properly.
+
+<img width="1060" height="721" alt="image" src="https://github.com/user-attachments/assets/9db53ab8-31ef-4605-bf42-cf7ec5eabce4" />
+
+I continue to edit the dimensions.
+
+<img width="1302" height="913" alt="image" src="https://github.com/user-attachments/assets/9ebf067f-4d1c-4b23-a880-6fe07749ae4b" />
+
+I insert the edited parts.
+
+<img width="1282" height="682" alt="image" src="https://github.com/user-attachments/assets/10b3fbc5-4d70-4193-bff0-0cc1f27388d5" />
+
+These holes wouldn't line up.
+
+<img width="1072" height="645" alt="image" src="https://github.com/user-attachments/assets/badc636e-e9ea-4a20-b264-7ef578d3ae7f" />
+
+I fixed it.
+
+<img width="1137" height="592" alt="image" src="https://github.com/user-attachments/assets/553008f7-26e9-4d4f-87cd-25fa3a5d1448" />
+
+An attempt was made to make further holes.
+
+<img width="1122" height="778" alt="image" src="https://github.com/user-attachments/assets/13747902-5859-479a-8762-e4e7c15a63c5" />
+
+The attempt was successful.
+
+<img width="1203" height="760" alt="image" src="https://github.com/user-attachments/assets/c4c970d2-c960-4526-a700-26c6e40f893b" />
+
+The final brackets accomodate for the studs from the motor as well have holes for bolts and nuts combos to fasten everything.
 
 ## Coupler
 
-I finally design the coupler.
+Finally, the coupler is designed.
 
 <img width="1308" height="946" alt="image" src="https://github.com/user-attachments/assets/e1e017c2-cb42-4902-b9c1-d39b4fee85c8" />
 
