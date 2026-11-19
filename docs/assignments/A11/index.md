@@ -82,6 +82,28 @@ To confirm the chosen thickness, we use the longest distance:
 
 ## Coupler
 
+I finally design the coupler.
+
+<img width="1308" height="946" alt="image" src="https://github.com/user-attachments/assets/e1e017c2-cb42-4902-b9c1-d39b4fee85c8" />
+
+After making the cylindrical features, I make the holes for the sides that will house the screws holding on to the shafts. I choose screws that are of appropriate length. Since the wall thickness is 0.2244in and 0.3179in, it is necessary to select screws that are appropriate. A screw of 0.375in of thread should suffice:
+
+<img width="953" height="373" alt="image" src="https://github.com/user-attachments/assets/127b8a29-4bcb-4206-91b7-5d528ede539c" />
+
+The diameter is 0.164in. I adjust it in my drawing.
+
+<img width="1315" height="909" alt="image" src="https://github.com/user-attachments/assets/8967de27-68f2-4c78-b0b3-b95b5fc3aa84" />
+
+I added in threads.
+
+<img width="1593" height="963" alt="image" src="https://github.com/user-attachments/assets/29cca27e-ab8c-4390-9a9d-813adb4ab144" />
+
+The coupler is finished.
+
+<img width="825" height="787" alt="image" src="https://github.com/user-attachments/assets/633ff138-4f1c-468e-812f-5b83a9197335" />
+
+
+
 ## Frame 
 
 ## FEA
