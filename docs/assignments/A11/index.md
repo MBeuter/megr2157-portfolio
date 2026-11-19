@@ -68,6 +68,12 @@ Calculations-wise, I found the following:
 
 The nut is taking too much thickness away from the plate. We need a thinner fastener. Since the main forces will be horizontally and the vertical forces will be pulling the motor downwards, the nut just needs to hold the motor in place enough not to come off easily.
 
+I choose this narrow nut.
+
+<img width="1916" height="736" alt="image" src="https://github.com/user-attachments/assets/9cc17951-1e59-422c-821b-6345ceb1dc0c" />
+
+Link: https://www.mcmaster.com/90760A150/
+
 <img width="876" height="490" alt="image" src="https://github.com/user-attachments/assets/198e4cfb-a8ba-437e-aed3-84261daba4b0" />
 
 Upond second viewing, I did find another fastener, however I realized that my assumption of 450lbf was most likely off. We use the torque. I drew the distances of the bolts to the motor in SolidWorks:
