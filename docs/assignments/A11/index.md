@@ -47,7 +47,7 @@ Link to Part: https://www.mcmaster.com/6409K17/
 
 ## Motor Mount Bracket Housing Design
 
-To analyze the geometry of the required bracket, I inserted one of the motor and made it cocentric with one of the lead screws:
+To analyze the geometry of the required bracket, I inserted one of the motors and made it cocentric with one of the lead screws:
 
 <img width="674" height="453" alt="image" src="https://github.com/user-attachments/assets/fa5016ba-d31c-46f0-820c-1b51054d7828" />
 <img width="599" height="274" alt="image" src="https://github.com/user-attachments/assets/1bafd899-8524-4443-8992-c3914f9c453b" />
