@@ -49,6 +49,25 @@ Which has the following torque-speed chart:
 
 ## Motor Mount Bracket Housing Design
 
+To analyze the geometry of the required bracket, I inserted one of the motor and made it cocentric with one of the lead screws:
+
+<img width="674" height="453" alt="image" src="https://github.com/user-attachments/assets/fa5016ba-d31c-46f0-820c-1b51054d7828" />
+<img width="599" height="274" alt="image" src="https://github.com/user-attachments/assets/1bafd899-8524-4443-8992-c3914f9c453b" />
+
+It is noticeable that the motor itself already has bolt screw connections. It seems like it isn't possible to remove them. So I decided to design a bracket that would use nuts that screw onto the threads and with that onto the frame.
+
+I chose to go with hex nuts.
+
+<img width="1210" height="264" alt="image" src="https://github.com/user-attachments/assets/3a0c03e0-b457-45ab-9d7a-ceaf93b498df" />
+
+<img width="1918" height="790" alt="image" src="https://github.com/user-attachments/assets/5e76e142-526d-4f40-860f-92be6dd0a998" />
+
+I chose this one because it comes in a pack of 5. I can buy 2 packs and have two backup nuts.
+
+Calculations-wise, I found the following:
+
+
+
 ## Coupler
 
 ## Frame 
