@@ -3,7 +3,7 @@
 ## Objective
 The objective of the assignment is to select a motor that is appropriate for our purposes. The motor needs to help deliver up to 2kN or 450lbf on a piece of material to be stretched to failure. Within this selection, it was important to consider the aforementioned parametes and other related specifications within a safety factor of 4 (already included in the diameter selection of the screw, affecting all related measurements).
 
-## Motor Selection
+## Motor Selection (Milena)
 
 Based on the calculations from the last assignment, the required torque is 19.62 lb-in and the speed range is 0.3937-19.685RPM. 19.62lb-in is 313.92in-oz (Calculation: 19.62lb-in*16oz/lb).
 
@@ -45,7 +45,8 @@ Which has the following torque-speed chart:
 Link to Part: https://www.mcmaster.com/6409K17/
 
 
-## Motor Mount Bracket Housing Design
+
+## Motor Mount Bracket Housing Design (Milena)
 
 To analyze the geometry of the required bracket, I inserted one of the motors and made it cocentric with one of the lead screws:
 
@@ -131,7 +132,7 @@ The final brackets accomodate for the studs from the motor as well have holes fo
 <img width="1374" height="909" alt="image" src="https://github.com/user-attachments/assets/c4ac0a4e-a6a3-436e-be2c-240d638391c0" />
 
 
-## Coupler
+## Coupler Design (Milena)
 We calculate the dimensions of the coupler.
 
 <img width="1450" height="538" alt="image" src="https://github.com/user-attachments/assets/580265f8-33df-45bb-b6ce-a4fb6039012a" />
@@ -178,15 +179,209 @@ The coupler is finished.
 <img width="825" height="787" alt="image" src="https://github.com/user-attachments/assets/633ff138-4f1c-468e-812f-5b83a9197335" />
 
 
+## Analyze and Design a Frame (Yazahira)
 
-## Frame 
+The Frame 
 
-## FEA
+Before working on the FEA i had to analyze the twist caused by the motors and find the forces required to stabilize the top of the frame. 
 
-## Bearing Mount Design
+After analyzing the twist caused by the motor on the frame I confirmed that the frame would be able to handle the stressed caused by the motors. I also found the force on each side of the frame where the motors would be. 
 
-## Costs
 
-## Lessons Learned
+<img width="557" height="280" alt="Screenshot 2026-11-18 103852" src="https://github.com/user-attachments/assets/66d535a8-a9ba-41aa-8975-eb14cdf4e4c6" />
 
-## Drawing
+
+
+ Based on the information I have I decided on this frame connector. 
+
+
+<img width="921" height="398" alt="Screenshot 2026-11-18 200101" src="https://github.com/user-attachments/assets/b7521f91-0250-49a9-82ab-082e823d62a0" />
+
+
+ The FEA
+
+Top frame
+
+The first FEA I will run will be on the Top frame. I began by adding the torque and the fixed geometry on the top frame before starting the analysis. I ran an analysis with a medium coarse mesh and followed by a fine mesh in order to test for convergence.
+
+
+
+
+<img width="960" height="540" alt="Screenshot 2026-11-18 222817" src="https://github.com/user-attachments/assets/1a3ada13-27fa-4cb4-9c26-c66e4f8d88dc" />
+
+
+<img width="649" height="224" alt="Screenshot 2026-11-18 222838" src="https://github.com/user-attachments/assets/4aa3dc56-2a6b-4002-abd3-ffb396b9cc27" />
+
+From both I got Von Misses stress and deflection graphs.
+
+<img width="775" height="344" alt="Screenshot 2026-11-18 230416" src="https://github.com/user-attachments/assets/93442718-5005-4dc1-bc31-62a507ea0b5f" />
+
+<img width="755" height="349" alt="Screenshot 2026-11-18 230539" src="https://github.com/user-attachments/assets/39eac69a-7fc0-4684-9224-a32e87fcdfd7" />
+
+These are the results with the fine mesh analysis. 
+
+
+
+<img width="758" height="353" alt="Screenshot 2026-11-18 233055" src="https://github.com/user-attachments/assets/186ee8a6-7683-4013-bf45-7f2f7671e236" />
+
+
+<img width="743" height="350" alt="Screenshot 2026-11-18 233149" src="https://github.com/user-attachments/assets/4d85d0d9-46bc-49b6-be2d-e5c524d0d60b" />
+
+After finishing both analysis i tested for convergence.
+
+
+
+|   | SF    | Stress    |Deflection|
+|---|-----|--------------|-----------
+|1  |35.52| 1.126x10^2 psi |8.653x10^-4 mm|
+|2  |27.91|1.433x10^2 psi|8.668x10^-4  mm|
+|Convergence| 0.24%|  0.24%| 0%|
+
+
+There was convergence however our frame failed the analysis. The frames twist is too large and wouldn't be able to handle a big load. A way to fix this could be changing the material of the frame into something stronger that can handle more load. Making the frame thicker i think would also help prevent this much twist on it. 
+
+Vertical Components
+
+Now that I've run the FEA on the top frame I will run an FEA on a side frame. The frame material will remain the same. As the top frame. I added the axial and transverse load to the frame as well as the fixed geometry. 
+
+
+<img width="951" height="500" alt="Screenshot 2026-11-18 142458" src="https://github.com/user-attachments/assets/5fafa718-421e-439e-92a6-a6f4137edf81" />
+
+
+<img width="535" height="320" alt="Screenshot 2026-11-18 142707" src="https://github.com/user-attachments/assets/4838094b-dba5-4be7-9f8d-d590c5283598" />
+
+
+I ran the first simulation with a medium coarse mesh. These were the resulting graphs for Von Misses Stress and deflection. The graphs also graph where the maximum stress and deflection points are and their value. 
+
+
+<img width="551" height="343" alt="Screenshot 2026-11-18 143758" src="https://github.com/user-attachments/assets/f6c6e5c2-80ab-4c61-b543-7b9decc85a4d" />
+
+
+<img width="578" height="328" alt="Screenshot 2026-11-18 143914" src="https://github.com/user-attachments/assets/7e547545-b346-45ce-939f-774a22a36fcd" />
+
+
+I then ran another simulation everything staying the same but this time with a fine mesh. 
+
+
+<img width="767" height="365" alt="Screenshot 2026-11-18 150100" src="https://github.com/user-attachments/assets/58d19e3b-3950-4170-ac63-28206c509265" />
+
+
+
+<img width="497" height="326" alt="Screenshot 2026-11-18 145933" src="https://github.com/user-attachments/assets/20f2b80b-71fa-40f7-906e-fe3ac50bb426" />
+
+After finishing up both simulations I checked for convergence and these were my values. All the values did converge on the after the first two simulations with different sized mesh. However the safety factor is too low.
+
+
+|   | SF    | Stress    |Deflection|
+|---|-----|--------------|-----------
+|1  |0.27| 1.496x10^4 psi |6.912 mm|
+|2  |0.25|1.584x10^4 psi|  6.913 mm|
+|Convergence| 0.1%|  0.1%| 0%|
+
+
+Since the safety factor is way to low that being below 1. This would main our frame would most likely fail. A change that we propose could help the frame from failing would be a changing the material. A material with a higher yield strength would help the frame hold despite the forces acting on it currently. The locations of the maximum stress and deflection didn't change and the values didn't change much either. I believe changing the material would lead to better results. 
+
+## Bearing Mount Design (Yazahira)
+
+
+<img width="444" height="352" alt="Screenshot 2026-11-18 213641" src="https://github.com/user-attachments/assets/b95717c4-ca6b-4feb-8a28-c2757e89ac91" />
+<img width="466" height="280" alt="Screenshot 2026-11-18 213543" src="https://github.com/user-attachments/assets/842c5811-ea4f-4665-aaa1-3f3f975416cc" />
+
+
+This is what my design for the bearing mount looks like.I made the mount 3x3 because the width of the frame we used is 3 in. I made the middle hole where the screw would go .5 in diameter since that is the diameter of the lead screw. According to the Machinery Handbook the clearance for this hole for an RC3 fir is +.6 - 0. I decided to use  1/4 in bolts that are 2 in apart for his mount. Based on the book i made the holes for the bolts 0.266 in in diameter. 
+
+
+
+<img width="683" height="346" alt="Screenshot 2026-11-18 205308" src="https://github.com/user-attachments/assets/c45c3c5c-d76a-43a1-b1d4-62a61652dfe5" />
+
+
+<img width="443" height="248" alt="Screenshot 2026-11-18 215037" src="https://github.com/user-attachments/assets/34eabbbc-9b6b-4644-883a-3da8b9822307" />
+
+
+## Costs (Milena)
+
+Bill of Material
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Item Number | Quantity           | Name               | Cost/Item          | Cost               | Purchase Link      |
+|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+|98935A911 |2 |Carbon Steel Acme Steel Screw| $6.95 |$13.90 |https://www.mcmaster.com/98935A911/ |
+|97790A110 |2 |932 Bearing Bronze- Flange Nut |$170.60 |$341.2 |https://www.mcmaster.com/97790A110/
+|804T38 |1 |T-Slot Framing System |$202.12 |$202.12 |https://www.grainger.com/product/80-20-T-Slot-Framing-System-15-Series-804T38 
+|LC103B-200 |1 |Load Cell| $349.56| $349.56| https://www.digikey.com/en/products/detail/omega/LC103B-200/25641942?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgO0kpqYMPhThlLdTwOcFLcR&gclid=Cj0KCQiAnsvXBhCqARIsAHKgGNbBoN82Wys6nRpzejUwxvXapOkhnu5bYxU6HeHkMHgI7gQFWMUO5JcaAgmxEALw_wcB 
+|90760A150|1|Steel Narrow-Profile Hex Nuts|$6.73|$6.73|https://www.mcmaster.com/90760A150/|
+|92200A192|1|Mil. Spec. 18-8 Stainless Steel Socket Head Screw|$4.46 |$4.46 |https://www.mcmaster.com/92200A192/|
+||||Total Cost|$917.97
+
+Design Cost
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Person | Hours Worked           | Cost/Hour              | Cost         | 
+|--------------------|--------------------|--------------------|--------------------|
+|Yazahira |9 |$35| $315.00 |
+|Milena |9 |$35|$315.00|
+||||Total Cost|$630.00
+
+
+## Lessons Learned (Yazahira) (Milena)
+
+Yazahira:
+With this assignment we learned more about motors. We learned how to correctly read a motor graph and choose a motor based on that graph that would correctly fit our needed torque and rpm. With this assignment I struggled a lot with the FEA and adding the correct loads to the frames. Our safety factor for the frames were both terribly low. The top frame completely twists. Im not sure if its the way i added the torque on the frame or the material. The material could be changed into something stronger like i mentioned before which i believe could help. Ultimately I learned I  need more practice running FEAs to correctly add all the parts and have then run how they should. Both our vertical and top frame failed but i learned more about running FEAs.
+
+Milena:
+Building on the aforementioned lessons, for this assignment, we expanded our knowledge on how to select component dimensions based on stress and shear stress analysis. We further learned about including labor cost in our financial break-down, and had more freedom to choose additional components for our design parts, so we became more experienced with part selection on McMaster-Carr.
+
+## Drawings (Milena)
+
+This part is completed in our portfolios. Due to time restraints, in the pdf, it may not be complete yet. Please view the portfolios for the complete list.
+
+Crosshead:
+
+<img width="875" height="678" alt="image" src="https://github.com/user-attachments/assets/fc7e80aa-7d57-4900-8b69-d101d2a03639" />
+
+Bracket:
+
+<img width="1015" height="793" alt="image" src="https://github.com/user-attachments/assets/b0bd3fa7-574f-4a7d-a3ee-aad7872bddb5" />
+
+Coupler:
+
+<img width="943" height="729" alt="image" src="https://github.com/user-attachments/assets/ffc54f47-b4ab-4768-be02-6e45021ed579" />
+
+Bearing Mount:
+<img width="961" height="750" alt="image" src="https://github.com/user-attachments/assets/0d123b4b-f115-466c-9ea4-4a6fc59f8bce" />
+
+
+Assembly:
+
+<img width="1101" height="855" alt="image" src="https://github.com/user-attachments/assets/4b07ba98-f2e7-4f11-a3da-25ba185e256a" />
+
+
+
+
+
+
+Links/ Files
+
+Assembly:
+https://drive.google.com/file/d/1jvs3zJaRhWwpZOseqy1sttTnRuknASGv/view?usp=sharing
+
+Bearing Mount:
+[Bearing Mount.zip](https://github.com/user-attachments/files/35063638/Bearing.Mount.zip)
+
+Crosshead: 
+https://github.com/user-attachments/files/34715581/A10-Crosshead.zip
+
+Coupler: 
+https://drive.google.com/file/d/1GuYkOA52rBS0G1NjtK-RXSCid_3poeph/view?usp=sharing
+
+Bracket: 
+https://drive.google.com/file/d/1Zvus47xIyk_wDwblzxl0XrPstExCGH9W/view?usp=sharing
+
+Frame connectors-
+https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Inside-2RCW7
+
+Drawings
+Assembly: https://drive.google.com/file/d/1uv5e6CHI4BamPSoJpvlyusi8F6wJ0cF1/view?usp=sharing
+Bearing Mount: https://drive.google.com/file/d/1BaNCaJZN-w9a922esPNYgBY0_WvW0srY/view?usp=sharing
+Crosshead: https://drive.google.com/file/d/1pujiDOheSiMVagM07jkx1YiQIuYr1rcw/view?usp=sharing
+Coupler: https://drive.google.com/file/d/15NqupJznTeGRP_lSAphICiyA7gY0lpIo/view?usp=sharing
+Bracket: https://drive.google.com/file/d/16rjLPQL1Cs2SYSnDRxgf8m4yrTM6NGv1/view?usp=sharing
+
